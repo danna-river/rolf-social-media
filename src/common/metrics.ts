@@ -1,6 +1,6 @@
 import type { Platform, PostRow } from '../config/schema';
 import { countHashtags, countMentions } from './counts';
-import { isInJuneWindow } from './dates';
+import { isInAuditWindow } from './dates';
 
 /**
  * Platform-aware public interactions:
@@ -70,7 +70,7 @@ export function applyDerivedMetrics(row: PostRow): PostRow {
     view_interaction_rate_per_1000:
       row.view_interaction_rate_per_1000 ??
       viewInteractionRatePer1000(interactions, row.visible_view_count),
-    in_june_window: row.in_june_window ?? isInJuneWindow(row.published_at),
+    in_june_window: isInAuditWindow(row.published_at),
     caption_length_chars:
       row.caption_length_chars ?? (row.caption_text === null ? null : row.caption_text.length),
     hashtags_count: row.hashtags_count ?? countHashtags(row.caption_text),

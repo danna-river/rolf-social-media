@@ -7,7 +7,7 @@ import type {
   PostRow,
 } from '../config/schema';
 import { countHashtags, countMentions } from '../common/counts';
-import { isInJuneWindow, nowIso } from '../common/dates';
+import { isInAuditWindow, nowIso } from '../common/dates';
 import { captureEvidence } from '../common/evidence';
 import {
   computePublicInteractions,
@@ -125,7 +125,7 @@ export async function buildPostRow(args: {
       snapshot?.follower_count_snapshot ?? null,
     ),
     view_interaction_rate_per_1000: viewInteractionRatePer1000(interactions, views),
-    in_june_window: isInJuneWindow(extracted?.publishedAt ?? null),
+    in_june_window: isInAuditWindow(extracted?.publishedAt ?? null),
     backfill_pre_june: null,
     under_quota: null,
     ica_primary: null,

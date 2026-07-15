@@ -1,4 +1,8 @@
-import { JUNE_WINDOW_END_MS, JUNE_WINDOW_START_MS } from '../config/constants';
+import {
+  AUDIT_WINDOW_END_MS,
+  AUDIT_WINDOW_LABEL,
+  AUDIT_WINDOW_START_MS,
+} from '../config/constants';
 
 const PT_TZ = 'America/Los_Angeles';
 
@@ -30,11 +34,17 @@ export function nowPtDisplay(): string {
  * true/false when the timestamp parses; null when it is missing or unparseable
  * (never guess — the raw string is preserved elsewhere).
  */
-export function isInJuneWindow(publishedAt: string | null | undefined): boolean | null {
+export function isInAuditWindow(publishedAt: string | null | undefined): boolean | null {
   if (!publishedAt) return null;
   const t = Date.parse(publishedAt);
   if (Number.isNaN(t)) return null;
-  return t >= JUNE_WINDOW_START_MS && t < JUNE_WINDOW_END_MS;
+  return t >= AUDIT_WINDOW_START_MS && t < AUDIT_WINDOW_END_MS;
+}
+
+export const auditWindowLabel = AUDIT_WINDOW_LABEL;
+
+export function isInJuneWindow(publishedAt: string | null | undefined): boolean | null {
+  return isInAuditWindow(publishedAt);
 }
 
 /** e.g. 2026-07-15T14-00-00_PT_instagram */

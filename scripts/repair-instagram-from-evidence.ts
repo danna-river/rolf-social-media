@@ -10,7 +10,7 @@ import path from 'node:path';
 import { EVIDENCE_DIR, POSTS_JSON } from '../src/config/constants';
 import type { PostRow } from '../src/config/schema';
 import { parseCompactCount } from '../src/common/counts';
-import { isInJuneWindow, nowIso } from '../src/common/dates';
+import { isInAuditWindow, nowIso } from '../src/common/dates';
 import { log } from '../src/common/logger';
 import {
   computePublicInteractions,
@@ -88,7 +88,7 @@ function main(): void {
         interactions,
         row.visible_view_count,
       ),
-      in_june_window: isInJuneWindow(row.published_at),
+      in_june_window: isInAuditWindow(row.published_at),
       extraction_status:
         row.published_at !== null && likes !== null && comments !== null
           ? 'complete'

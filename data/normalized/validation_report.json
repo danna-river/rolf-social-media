@@ -1,2530 +1,1096 @@
 {
-  "generated_at": "2026-07-15T12:37:25-07:00",
+  "generated_at": "2026-07-15T15:38:28-07:00",
   "total_rows": 630,
   "rows_with_errors": 0,
-  "rows_with_warnings": 421,
+  "rows_with_warnings": 182,
   "duplicates_dropped": 0,
   "errors": [],
   "warnings": [
     {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DXFVeN2veMt/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DRIkZ0SEknB/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DQKa9t_DUna/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
       "rowKey": "instagram::https://www.instagram.com/rolforg/p/Dax4UPBkypj/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DY8ZBRhEtlp/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DYTWawVlPvV/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DX7haZdPIFy/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DXu7d5ZjQzN/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DXPSmtfk9Xx/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DXKvg0cD76W/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DXHjt9vk8Pz/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DXCZ36_kwCL/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DWoqQX4Dn16/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DWaCJyIiuV1/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DWRfDAmk_J2/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DVtb8ctEiUs/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DVTyrmhEXSw/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DVJfm4vk9pW/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DVEO9soFUaA/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DU3XLDxEcAG/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DUOREnPjIa3/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DUIzQLJEr_F/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DUEYfGvkqS5/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DT5q4tQEhtA/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DTtOL7FE_YV/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DTQ5e5pk0sc/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DTLv2SVknmJ/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DTJLEcEEqSU/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DTHU8j8kipS/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/reel/DS5S-FFjVSC/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/rolforg/p/DSxrdtCkgo2/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/repzoelofgren/reel/DalwOhqJ-vz/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/Dad6pmaAX4e/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DaRDQzRAX4v/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DY2exyKG8AO/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DYzreBvG20X/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/reel/DYp00FphaRg/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DYnHyVKj8w5/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DYVT3NjBuT0/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DYF0zMCgV8C/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DYDCpQZj92P/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DX7dO_3gcU-/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DX7dGyaAX8P/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DXxK7JIgccg/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DXpAkF8m6Du/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DXfMCW3ktzQ/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DXcWYdgk0DL/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DXcVq1OFPOt/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DWo8u0DD9ox/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DWmdJZZgR-J/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DWjpTJ4E81z/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DWCproFAZvC/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DV1vlLWEtIF/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DVysvdtkcpD/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/marthaskitchensj/p/DVwWTkzgV7q/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DaYfvonEyHC/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DaV682WCu2W/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DaTWJtuiUxI/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/reel/DaRTY14DPxX/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DaQwNnGgWIE/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DY0dMe1ATFQ/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/reel/DYqI23XnJRu/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DYh9MLIAReY/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DYVSszyjasJ/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DYP6KxJAV4Q/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DYFfk_-CmyR/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DX-NC6XkWFr/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DX9vIjAjncd/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DX4zDlMDTtq/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DXziuDdjMoJ/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DXxveAdju5x/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DXxAkg4FMw5/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DXr3if6FOPT/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DXhoAAjDW-l/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DXckiI-D_E0/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DXIMeyyFBIV/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DW7b_IQDehs/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/uwbayarea/reel/DW4F_xnkehO/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DWztSQJFFE6/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DWhCVT3DF1O/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DWesWSyAJ53/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sunnyvalecommunityservices/p/DWUZLbTgZgY/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/Dax89sXFmUS/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DavpB9wAdfV/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DaTE_3tmW0B/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DYoU7bjjLwG/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DYS3AVAGn2N/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DW7bKCglYE9/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DW2axlxlRR-/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DWxNWWelEeO/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DWX0w8FEqxO/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DWWvFfVDt9K/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DWUKbIqj4-x/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DWSHeWLlCvr/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DWHZV8iAZMT/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DU6agriiDxx/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DULzEP9jTU4/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DUBf3WyjLmq/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DT_43FQjbWm/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DT_Pi1qAHIL/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DT_LbLIAZAj/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DT-7FYkAYaz/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DT1Nj4wgaLL/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DTs_H3BAZ13/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sacredheartcs/p/DTI9PY9jAxB/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DQZ9nWSDUL6/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DQcHnzcE1EE/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/felicitythefoodie/reel/DaxwQF1JhGp/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/workingpartnershipsusa/p/DajjCF5qXDa/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/reel/DaYAUZajh1u/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DY7hfLJmgwK/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DYxIJQmHOZC/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DYp74UgmpKO/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DYcoeApHJAi/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DYKZSfiD1T1/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DYH7U9tEgkP/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DX915KzmKfw/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DX71q6ij9a5/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DX0c9nUH5Gq/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DXw-ANRnIMy/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DXr7LKCiTiH/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DXh1tVsGpLW/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DXc6klhDThw/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/reel/DXR2BPJjew3/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/wvcommunityservices/p/DXP-zJPjlwj/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DVfbIIWlVJh/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DavRYj4CMjZ/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DanlK1ZgQJ4/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DagvqO-jusf/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DaQYhkUEf54/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DZAsdwDlT7Y/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DY8SGdCD-Ja/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DY4z5k-Ctng/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DYxGT1tFTYE/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DYqD_FJjZWj/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DYiaor1j_MY/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DYiZDQKPVi9/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/kwbayareaestates/reel/DYX2uxhyKE7/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DYSqpQ7mbyg/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DYKegMlD0Sb/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DXws83QAaaR/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DXmiWtKjpcY/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DXcola5m3g9/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DXMrUBGAkWI/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DXChoNZFcjj/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DWy77pyFckb/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DWmhCCylZJo/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DWhCf7SEg9S/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DWaKPqtk7hS/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DWR7005AgR-/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DWEl-VGlOuL/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DV8_tlGCeca/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/loavesfishessj/p/DVyjYJWifg9/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DayunoUFLQ9/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Dayg3JlD9YU/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DayTI26lBAq/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Dax3sNujx1s/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/reel/Dav8HfRD_8z/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DavuVPrGOge/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DavgnaujEet/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DavS5AbFXlw/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DatJj9xkTq_/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Das70wzjH2G/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DaqyhZ6iclC/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DaqXEhEiNsV/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DaobcM-Hdym/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DaoNsYfF7Ny/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Dan_8imnBOz/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DanyNv-DyxF/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Dankh5xjBD3/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Dal2pU-DDtF/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Dalo5GSD1bc/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DalbKzxjjYb/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DalbKvfjBRQ/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DalNcyiAhl2/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Dak_sYhCL3y/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DajR1eSAdwe/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DajEF4HAQS9/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Dai2Xxnj0Yr/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DaiooVCDW41/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Daia6TrDT04/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DagtBtZAYrb/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DagfTNzD0zt/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DagRkQwki_L/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DagD1xYjYs7/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Daf2H_WCOpP/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/DaeIP8NgWnD/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/catholiccharitiesscc/p/Dad6g05geP7/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/cityteam/p/DaykyShgWFi/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DY5ZQzLifOc/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/reel/DYqlu_jjnzv/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DYlbUVcl-dS/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DYg7QsCIPOT/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DYYjollDjUp/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DYVb1aWiYRq/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DYScO3wGLcp/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DYAao2-CVK0/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DWzqGu5GEBY/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DWHxOm_lHG9/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/reel/DWHpfgOkoBK/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/reel/DWE9SMGiufF/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DV9pi0mCcIy/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DVwXttqiSW6/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/reel/DVj7_JOk5o5/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DVhTCrQElUU/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/peterortizd5/p/DVeeyTbkii2/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DVcJ_uIEcVy/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DVPaGkJkda9/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DVM2ItSDnB9/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteamsf/reel/DU1hJ3LErdX/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DUt4T-lDiMc/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DUoqI_qkvJv/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DUWtgBFkrue/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/dhyankaksh.usa/p/DUMli3kDiso/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/cityteam/p/DT3sfFQkvws/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DatXTTGDBbX/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DaoNuFnlGt1/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DagOaS1mg__/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DaWMJPbj-ZI/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DY8EYz-jLh1/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DY7lqw8mp-V/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DYzs5mxnCo3/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DYqCzqxHHXU/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DYYBO51Gt_Q/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DYF_qQhnNJK/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DX-TVXwHKat/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DX4XnFBElx0/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DX15uaIFSxY/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DXz-GsajHV7/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DXxZTj4jIBm/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DXsXIjXHHvD/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DXj4Nv_EtSf/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DXh8kvkjEfm/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DXaQJ-7EU-8/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DXQNyZtl4KI/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DW6zLUziTml/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DWr30jmmtU-/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DWZ2SehGrfP/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DV1zIKDAB20/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/bicycle.exchange/reel/DV1bOSbD-O_/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DVkQ4TfGhHn/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DVWzQ7kGqeI/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "instagram::https://www.instagram.com/sundayfriends/p/DVAUgipDdiY/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1005407621852887&set=pcb.1005407968519519",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1005407665186216&set=pcb.1005407968519519",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1288571073486342&set=pcb.1288572570152859",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1288571083486341&set=pcb.1288572570152859",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1288571143486335&set=pcb.1288572570152859",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1288571240152992&set=pcb.1288572570152859",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1288571253486324&set=pcb.1288572570152859",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1287621030248013&set=pcb.1287621283581321",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1287621036914679&set=pcb.1287621283581321",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1287621056914677&set=pcb.1287621283581321",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1287621116914671&set=pcb.1287621283581321",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1283682743975175&set=pcb.1283683400641776",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1283682763975173&set=pcb.1283683400641776",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1283682717308511&set=pcb.1283683400641776",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1272968275046622&set=pcb.1272968898379893",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1638645341603204&set=pb.100063732602285.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1637605398373865&set=pb.100063732602285.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1636614325139639&set=pb.100063732602285.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1636601671807571&set=pb.100063732602285.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1636601661807572&set=pb.100063732602285.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1638645341603204&set=a.714841950650219",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1637605398373865&set=a.714841950650219",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1636614325139639&set=pcb.1636616125139459",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1636601671807571&set=pcb.1636616125139459",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1636601661807572&set=pcb.1636616125139459",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1602146281919777&set=pcb.1602147868586285",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1602146348586437&set=pcb.1602147868586285",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1602146265253112&set=pcb.1602147868586285",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1602146248586447&set=pcb.1602147868586285",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1602146885253050&set=pcb.1602147868586285",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1419439259991193&set=pcb.1419439343324518",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1419439276657858&set=pcb.1419439343324518",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1419439273324525&set=pcb.1419439343324518",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1419439263324526&set=pcb.1419439343324518",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1419439253324527&set=pcb.1419439343324518",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1595596999241372&set=pcb.1595609659240106",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1595561245911614&set=pcb.1595609659240106",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=642109834616912&set=a.642109811283581",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032452124642&set=pcb.1467032565457964",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032378791316&set=pcb.1467032565457964",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032398791314&set=pcb.1467032565457964",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032408791313&set=pcb.1467032565457964",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032385457982&set=pcb.1467032565457964",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032452124642&set=pb.100064537040574.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032415457979&set=pb.100064537040574.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032408791313&set=pb.100064537040574.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032398791314&set=pb.100064537040574.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032385457982&set=pb.100064537040574.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1467032378791316&set=pb.100064537040574.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1466261405535080&set=pb.100064537040574.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1466261088868445&set=pb.100064537040574.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459951729499381&set=pb.100064537040574.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1466261088868445&set=pcb.1466261632201724",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1466261405535080&set=pcb.1466261632201724",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459951729499381&set=pcb.1459951752832712",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459951726166048&set=pcb.1459951752832712",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459951722832715&set=pcb.1459951752832712",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459951719499382&set=pcb.1459951752832712",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1456139616547259&set=pcb.1456139649880589",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1456139619880592&set=pcb.1456139649880589",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=737242851775877&set=a.386150573551775",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=737242358442593&set=a.386150593551773",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1453161273517361&set=a.386150570218442",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1449355103897978&set=a.386150570218442",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=407588248587466&set=a.118184410861186",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=118184434194517&set=a.118184414194519",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1038689745477310&set=pb.100080088837737.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1036397495706535&set=pb.100080088837737.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1034277955918489&set=pb.100080088837737.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1028730796473205&set=pb.100080088837737.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/loavesfishessj/posts/pfbid05XoC3JvVHW3YmrV9LgCy9HHAKhYqcdE77fUb1AHzRRcb4zFnEVWDx6tsSSjsi4HMl/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/loavesfishessj/posts/pfbid02jj1jwmRm4WhJsCztMqZ7ytLxaXUiSvSkeKqvDev2t9VDANfQqvEPFtuA4U8AJguwl/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1038689745477310&set=a.118184394194521",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1036397495706535&set=a.118184394194521",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1034277955918489&set=a.118184394194521",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1028730796473205&set=a.118184394194521",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1002420892437529&set=a.118184394194521",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=999768122702806&set=a.118184394194521",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=997275309618754&set=a.118184394194521",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=995017746511177&set=a.118184394194521",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=992548896758062&set=a.118184394194521",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=992543596758592&set=pcb.992544376758514",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=992543746758577&set=pcb.992544376758514",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=992543766758575&set=pcb.992544376758514",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1843538473484479&set=pcb.1843541370150856",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1843538463484480&set=pcb.1843541370150856",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=814163220750382&set=a.367069745459734",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814582985239&set=pb.100064701339548.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814579651906&set=pb.100064701339548.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814576318573&set=pb.100064701339548.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814572985240&set=pb.100064701339548.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814569651907&set=pb.100064701339548.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814566318574&set=pb.100064701339548.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814562985241&set=pb.100064701339548.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491758286324202&set=pb.100064701339548.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491692482997449&set=pb.100064701339548.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814572985240&set=pcb.1491814612985236",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814569651907&set=pcb.1491814612985236",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814582985239&set=pcb.1491814612985236",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814576318573&set=pcb.1491814612985236",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491814562985241&set=pcb.1491814612985236",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491758286324202&set=a.367069752126400",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491692479664116&set=pcb.1491692499664114",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491692482997449&set=pcb.1491692499664114",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1491536499679714&set=a.367069752126400",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1490818503084847&set=a.367069752126400",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1490752869758077&set=a.367069752126400",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1488375386662492&set=pcb.1488375419995822",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1488375389995825&set=pcb.1488375419995822",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1488375383329159&set=pcb.1488375419995822",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1488375393329158&set=pcb.1488375419995822",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1490675463099151&set=a.367069752126400",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1489984269834937&set=pcb.1489984306501600",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1489984273168270&set=pcb.1489984306501600",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1489984266501604&set=pcb.1489984306501600",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1489911039842260&set=pcb.1489911099842254",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1489911043175593&set=pcb.1489911099842254",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1489911046508926&set=pcb.1489911099842254",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1489190009914363&set=pcb.1489190046581026",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1489189996581031&set=pcb.1489190046581026",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1489189986581032&set=pcb.1489190046581026",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=547379174105124&set=a.377725481070495",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=547380294105012&set=a.377725461070497",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1422638916579141&set=pb.100064991372402.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1421073340069032&set=pb.100064991372402.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1418560253653674&set=pb.100064991372402.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1415120070664359&set=pb.100064991372402.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1422638916579141&set=a.377725457737164",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1421073340069032&set=a.377725457737164",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1418560253653674&set=a.377725457737164",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1415120070664359&set=a.377725457737164",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1384933113683055&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1384778950365138&set=pcb.1384779020365131",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1384778977031802&set=pcb.1384779020365131",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1384778937031806&set=pcb.1384779020365131",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1382148627294837&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1379083160934717&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1373228631520170&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1367394955436871&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1364971469012553&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1363112332531800&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1362339462609087&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1361738302669203&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1356450006531366&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1360889519420748&set=a.377725457737164",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=724790883022636&set=a.417675020400892",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=417675060400888&set=a.417675040400890",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289656239418&set=pb.100064751918505.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289539572763&set=pb.100064751918505.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289439572773&set=pb.100064751918505.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289362906114&set=pb.100064751918505.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289289572788&set=pb.100064751918505.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289232906127&set=pb.100064751918505.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289179572799&set=pb.100064751918505.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289102906140&set=pb.100064751918505.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289102906140&set=pcb.1459289722906078",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289179572799&set=pcb.1459289722906078",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289232906127&set=pcb.1459289722906078",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289289572788&set=pcb.1459289722906078",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1459289362906114&set=pcb.1459289722906078",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=575074584886195&set=a.274281558298834",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=274281578298832&set=a.274281564965500",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1043103728083276&set=pb.100071509756643.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1043103678083281&set=pb.100071509756643.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
-    },
-    {
-      "rowKey": "facebook::https://www.facebook.com/ROLFUSA/posts/pfbid0yrXXyoriynX6QqMrMzWU4nMLqnCXqZoNjVS8SEypY1AeX58W9ad13agwzAEJiwZRl/",
-      "severity": "warning",
-      "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1043103678083281&set=pcb.1043103838083265",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1043103728083276&set=pcb.1043103838083265",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=544131184597005&set=a.544131157930341",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1323065176703598&set=pb.100070003834176.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1318687403808042&set=pb.100070003834176.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1323065176703598&set=pcb.1323067386703377",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1318687403808042&set=a.544131144597009",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=714841967316884&set=a.714841953983552",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=714841973983550&set=a.714841957316885",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1639614374839634&set=pb.100063732602285.-2207520000",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/photo/?fbid=1639614374839634&set=a.714841950650219",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "facebook::https://www.facebook.com/reel/859838036734196/",
       "severity": "warning",
       "field": "published_at",
-      "message": "Outside June 2026 window and not flagged backfill_pre_june"
+      "message": "Outside audit window (July 1, 2025–June 30, 2026) and not flagged backfill_pre_june"
     },
     {
       "rowKey": "instagram::https://www.instagram.com/ramon_franco_arambula_artisan/reel/DZgk9FgOXRZ/",

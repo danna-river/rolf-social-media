@@ -16,9 +16,14 @@ export const PLATFORM_PREFIX: Record<PlatformName, string> = {
   linkedin: 'li',
 };
 
-// Primary content window: June 1–30, 2026 (Pacific).
-export const JUNE_WINDOW_START_MS = Date.parse('2026-06-01T00:00:00-07:00');
-export const JUNE_WINDOW_END_MS = Date.parse('2026-07-01T00:00:00-07:00');
+// Primary content window: 12 clean calendar months, July 1, 2025 through
+// June 30, 2026 (Pacific). Existing CSV columns still say "in_june_window"
+// for compatibility; code treats that field as "inside this audit window".
+export const AUDIT_WINDOW_LABEL = 'July 1, 2025–June 30, 2026';
+export const AUDIT_WINDOW_START_MS = Date.parse('2025-07-01T00:00:00-07:00');
+export const AUDIT_WINDOW_END_MS = Date.parse('2026-07-01T00:00:00-07:00');
+export const JUNE_WINDOW_START_MS = AUDIT_WINDOW_START_MS;
+export const JUNE_WINDOW_END_MS = AUDIT_WINDOW_END_MS;
 
 export const ROOT_DIR = process.env.ROLF_AUDIT_ROOT ?? process.cwd();
 export const DATA_DIR = path.join(ROOT_DIR, 'data');
@@ -61,8 +66,8 @@ export const SAMPLING = {
   // A platform may exceed maxPerPlatform when the org posted almost exclusively there.
   exclusivityShare: 0.85,
   rolfSampleSize: 30,
-  defaultMaxUrlsPerOrg: 60,
-  defaultMaxPostsPerOrg: 20,
+  defaultMaxUrlsPerOrg: 365,
+  defaultMaxPostsPerOrg: 365,
 } as const;
 
 export const LOGIN_URLS: Record<PlatformName, string> = {

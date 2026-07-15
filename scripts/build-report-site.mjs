@@ -5,6 +5,9 @@ const ROOT = process.cwd();
 const POSTS_PATH = path.join(ROOT, 'data', 'normalized', 'posts_public_metrics.json');
 const SNAPSHOTS_PATH = path.join(ROOT, 'data', 'normalized', 'account_snapshots.csv');
 const OUT_PATH = path.join(ROOT, 'docs', 'index.html');
+const AUDIT_WINDOW_LABEL = 'July 1, 2025–June 30, 2026';
+const AUDIT_WINDOW_START_MS = Date.parse('2025-07-01T00:00:00-07:00');
+const AUDIT_WINDOW_END_MS = Date.parse('2026-07-01T00:00:00-07:00');
 
 const ORG_LABELS = {
   rolf: 'River of Life',
@@ -238,6 +241,14 @@ function chartFrame(title, deck, svg) {
     </figure>`;
 }
 
+const WINDOW_LABEL = AUDIT_WINDOW_LABEL;
+
+function isInReportWindow(row) {
+  if (!row.published_at) return false;
+  const t = Date.parse(row.published_at);
+  return Number.isFinite(t) && t >= AUDIT_WINDOW_START_MS && t < AUDIT_WINDOW_END_MS;
+}
+
 function stackedVolumeChart(data) {
   const width = 920;
   const height = 500;
@@ -270,10 +281,10 @@ function stackedVolumeChart(data) {
       return `<g><line x1="${gx}" x2="${gx}" y1="${margin.top - 8}" y2="${height - margin.bottom + 6}" class="grid"></line><text x="${gx}" y="${height - 18}" text-anchor="middle" class="axis">${g}</text></g>`;
     })
     .join('');
-  return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="June post count by organization, split by Instagram and Facebook">
+  return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Audit-window post count by organization, split by Instagram and Facebook">
     ${gridLines}
     ${bars}
-    <text x="${margin.left}" y="22" class="axis-title">June posts in analysis sample</text>
+    <text x="${margin.left}" y="22" class="axis-title">Posts in analysis sample</text>
     <g transform="translate(${width - 118} 30)">
       <rect width="12" height="12" fill="${COLORS.blue}" rx="2"></rect><text x="18" y="11" class="legend">Instagram</text>
       <rect y="24" width="12" height="12" fill="${COLORS.orange}" rx="2"></rect><text x="18" y="35" class="legend">Facebook</text>
@@ -352,10 +363,10 @@ function scatterChart(data) {
       return `<g><line x1="${gx}" x2="${gx}" y1="${margin.top - 8}" y2="${height - margin.bottom + 6}" class="grid"></line><text x="${gx}" y="${height - 18}" text-anchor="middle" class="axis">${t.toFixed(1)}</text></g>`;
     })
     .join('');
-  return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="June public interactions per one thousand followers">
+  return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Audit-window public interactions per one thousand followers">
     ${ticks}
     ${rows}
-    <text x="${margin.left}" y="24" class="axis-title">June interactions per 1,000 followers</text>
+    <text x="${margin.left}" y="24" class="axis-title">Interactions per 1,000 followers</text>
   </svg>`;
 }
 
@@ -404,7 +415,7 @@ function rosterCards(orgData) {
       <article class="org-card">
         <h3>${escapeHtml(org.name)}</h3>
         <dl>
-          <dt>June posts analyzed</dt><dd>${fmtNum(org.totalCount)}</dd>
+          <dt>Posts analyzed</dt><dd>${fmtNum(org.totalCount)}</dd>
           <dt>Instagram</dt><dd>${fmtNum(org.igCount)}</dd>
           <dt>Facebook</dt><dd>${fmtNum(org.fbCount)}</dd>
         </dl>
@@ -511,7 +522,7 @@ function clusterName(members) {
   if (avgIgMedian >= 0.65) return 'Instagram-efficient storytellers';
   if (avgEff >= 35) return 'High-response local pages';
   if (avgVolume >= 24) return 'High-volume mixed calendars';
-  return 'Quiet or low-signal June presence';
+  return 'Quiet or low-signal presence';
 }
 
 function buildModelCards(model) {
@@ -561,12 +572,12 @@ function buildModeling(orgData, juneRows) {
       const containsRolf = members.some((row) => row.id === 'rolf');
       const name = containsRolf ? "ROLF's nearest operating set" : clusterName(members);
       const read = containsRolf
-        ? 'ROLF lands here because it combines high June volume with a Facebook-heavy calendar and a better-than-expected Instagram rate.'
+        ? 'ROLF lands here because it combines steady volume with a Facebook-heavy calendar and a better-than-expected Instagram rate.'
         : name === 'Instagram-efficient storytellers' || name === 'High-response local pages'
           ? 'These accounts turn fewer posts into stronger rates, usually through partner proof, carousels, or posts with a clear human context.'
           : name === 'High-volume mixed calendars'
             ? 'These accounts maintain a broad calendar and split effort across both channels.'
-            : 'These accounts gave the crawl too little June signal to support strong creative conclusions.';
+            : 'These accounts gave the crawl too little signal to support strong creative conclusions.';
       return {
         name,
         read,
@@ -606,7 +617,7 @@ function buildModeling(orgData, juneRows) {
       {
         label: 'Caption length signal',
         value: `Spearman ${spearman(captionLengths, engagement)?.toFixed(2) ?? 'n/a'}`,
-        read: 'Caption length did not show a strong monotonic relationship with Instagram engagement in this small June sample.',
+        read: 'Caption length did not show a strong monotonic relationship with Instagram engagement in this sample.',
       },
       {
         label: 'Hashtag count signal',
@@ -660,7 +671,7 @@ function buildReport() {
   const allOrgIds = Object.keys(ORG_LABELS);
   const reportRows = rows.filter((r) => allOrgIds.includes(r.organization_id));
   const reportRawRows = rawRows.filter((r) => allOrgIds.includes(r.organization_id));
-  const juneRows = reportRows.filter((r) => r.in_june_window);
+  const juneRows = reportRows.filter(isInReportWindow);
   const peerOrgIds = allOrgIds.filter((id) => id !== 'rolf');
 
   const orgData = allOrgIds.map((id) => {
@@ -1096,11 +1107,11 @@ const html = `<!doctype html>
       <aside class="scope" aria-label="report scope">
         <h2>Report scope</h2>
         <dl>
-          <dt>Collection window</dt><dd>June 2026 posts, collected July 14-15</dd>
+          <dt>Content window</dt><dd>${WINDOW_LABEL}</dd>
           <dt>Platforms</dt><dd>Instagram and Facebook</dd>
           <dt>Collected rows</dt><dd>${fmtNum(report.sampleCoverage.collected)}</dd>
           <dt>Unique analyzed posts</dt><dd>${fmtNum(report.sampleCoverage.unique)}</dd>
-          <dt>June posts analyzed</dt><dd>${fmtNum(report.sampleCoverage.june)}</dd>
+          <dt>Posts in window</dt><dd>${fmtNum(report.sampleCoverage.june)}</dd>
         </dl>
       </aside>
     </div>
@@ -1109,12 +1120,12 @@ const html = `<!doctype html>
     <section>
       <div class="section-head">
         <h2>Who was included</h2>
-        <p>The audit covered River of Life Foundation plus seven peer nonprofits. The counts below show June posts used in the analysis after removing repeated Facebook photo variants.</p>
+        <p>The audit covered River of Life Foundation plus seven peer nonprofits. The counts below show posts inside the 12-month content window after removing repeated Facebook photo variants.</p>
       </div>
       <div class="plain-summary">
         <article><strong>8 nonprofits</strong><span>ROLF plus seven peer organizations</span></article>
         <article><strong>${fmtNum(report.sampleCoverage.collected)} posts collected</strong><span>Raw Instagram and Facebook rows before cleanup</span></article>
-        <article><strong>${fmtNum(report.sampleCoverage.june)} June posts analyzed</strong><span>${fmtNum(report.sampleCoverage.juneIg)} Instagram and ${fmtNum(report.sampleCoverage.juneFb)} Facebook posts</span></article>
+        <article><strong>${fmtNum(report.sampleCoverage.june)} posts in window</strong><span>${fmtNum(report.sampleCoverage.juneIg)} Instagram and ${fmtNum(report.sampleCoverage.juneFb)} Facebook posts</span></article>
       </div>
       <div class="org-roster">
         ${rosterCards(report.orgData)}
@@ -1124,22 +1135,22 @@ const html = `<!doctype html>
     <section>
       <div class="section-head">
         <h2>Executive read</h2>
-        <p>ROLF sits in the middle of the peer set on total June engagement. Instagram delivered the stronger rate on a small base. Facebook supplied most of ROLF's June posts.</p>
+        <p>ROLF sits in the middle of the peer set on total engagement. Instagram delivered the stronger rate on a smaller base. Facebook supplied most of ROLF's posts.</p>
       </div>
       <div class="kpis">
-        <div class="kpi"><strong>${fmtNum(report.rolf.totalCount)}</strong><span>ROLF June posts analyzed after duplicate photo cleanup</span></div>
+        <div class="kpi"><strong>${fmtNum(report.rolf.totalCount)}</strong><span>ROLF posts analyzed after duplicate photo cleanup</span></div>
         <div class="kpi"><strong>${fmtPct(report.rolf.igMedian)}</strong><span>ROLF median Instagram engagement, above the peer median of ${fmtPct(report.peerMedianIg)}</span></div>
         <div class="kpi"><strong>${fmtPct(report.rolf.fbMedian)}</strong><span>ROLF median Facebook engagement, above the peer median of ${fmtPct(report.peerMedianFb)}</span></div>
-        <div class="kpi"><strong>${fmtNum(report.rolf.interactions)}</strong><span>ROLF public interactions on June posts after duplicate cleanup</span></div>
+        <div class="kpi"><strong>${fmtNum(report.rolf.interactions)}</strong><span>ROLF public interactions after duplicate cleanup</span></div>
       </div>
       <div class="findings">
         <article class="finding">
           <h3>Instagram is underused, not weak.</h3>
-          <p>ROLF posted only ${report.rolf.igCount} June Instagram items, but those posts held a median engagement rate of ${fmtPct(report.rolf.igMedian)}. That beats the peer median. The sample is small, so the right move is controlled expansion, not a victory lap.</p>
+          <p>ROLF had ${report.rolf.igCount} Instagram posts in the window, and those posts held a median engagement rate of ${fmtPct(report.rolf.igMedian)}. That beats the peer median. The right move is controlled expansion, not a victory lap.</p>
         </article>
         <article class="finding">
           <h3>Facebook carries the calendar.</h3>
-          <p>${report.rolf.fbCount} of ROLF's ${report.rolf.totalCount} June posts came from Facebook. The platform gives ROLF reliable distribution, but repeated service-schedule posts cap the ceiling unless they get stronger story packaging.</p>
+          <p>${report.rolf.fbCount} of ROLF's ${report.rolf.totalCount} posts came from Facebook. The platform gives ROLF reliable distribution, but repeated service-schedule posts cap the ceiling unless they get stronger story packaging.</p>
         </article>
         <article class="finding">
           <h3>The peer winners show proof.</h3>
@@ -1151,10 +1162,10 @@ const html = `<!doctype html>
     <section>
       <div class="section-head">
         <h2>Where ROLF sits</h2>
-        <p>The charts use unique June posts after collapsing duplicate Facebook photo variants. Engagement rate means public interactions divided by the follower snapshot for that account.</p>
+        <p>The charts use unique posts inside the 12-month content window after collapsing duplicate Facebook photo variants. Engagement rate means public interactions divided by the follower snapshot for that account.</p>
       </div>
       <div class="chart-grid">
-        ${chartFrame('June posting volume', 'West Valley and ROLF posted the most June content in this peer set. ROLF was active enough to compete; the question is whether each post earns attention.', stackedVolumeChart(report.volumeData))}
+        ${chartFrame('Posting volume', 'West Valley and ROLF posted the most content in this peer set. ROLF was active enough to compete; the question is whether each post earns attention.', stackedVolumeChart(report.volumeData))}
         ${chartFrame('Median engagement rate by platform', 'ROLF is stronger on Instagram than its small count suggests. Facebook looks steadier than several larger peers, but Sunday Friends shows what a smaller organization can do when posts travel.', engagementChart(report.engagementData))}
         ${chartFrame('Audience efficiency', 'This view normalizes public interactions by follower count. It avoids rewarding larger pages just for being larger.', scatterChart(report.scatterData))}
       </div>
@@ -1165,7 +1176,7 @@ const html = `<!doctype html>
         <h2>Caption sentiment</h2>
         <p>I scored captions with a simple nonprofit-specific dictionary. “Uplifting” captures thanks, hope, partnership, and community language. “Need-focused” captures hunger, homelessness, cost pressure, and direct-need language. This is a tone read, not a psychological read.</p>
       </div>
-      ${chartFrame('Caption tone by nonprofit', `ROLF's dominant caption tone in June was ${report.rolfToneDominant.toLowerCase()}. The stronger peer posts often paired need language with proof or gratitude, which kept the post from reading like a plain announcement.`, toneChart(report.toneData))}
+      ${chartFrame('Caption tone by nonprofit', `ROLF's dominant caption tone was ${report.rolfToneDominant.toLowerCase()}. The stronger peer posts often paired need language with proof or gratitude, which kept the post from reading like a plain announcement.`, toneChart(report.toneData))}
       <div class="findings">
         <article class="finding">
           <h3>Need language is useful when it has proof.</h3>
@@ -1195,7 +1206,7 @@ const html = `<!doctype html>
           ${signalRows(report.modeling.signals)}
         </tbody>
       </table>
-      <p class="note">Model inputs: June post volume, Instagram share of activity, median Instagram engagement, median Facebook engagement, and interactions per 1,000 combined followers.</p>
+      <p class="note">Model inputs: post volume, Instagram share of activity, median Instagram engagement, median Facebook engagement, and interactions per 1,000 combined followers.</p>
     </section>
 
     <section>
@@ -1203,7 +1214,7 @@ const html = `<!doctype html>
         <h2>Creative patterns</h2>
         <p>Format alone does not explain performance. Reels had the highest peer median on Instagram, but the sample is thin. Carousels gave Sacred Heart and Martha's Kitchen a repeatable way to package need, proof, and a call to act.</p>
       </div>
-      ${chartFrame('Instagram format benchmark', 'ROLF only had carousels and image posts in the June Instagram sample. It can test Reels without abandoning carousels, which already clear the peer median.', formatChart(report.formatData))}
+      ${chartFrame('Instagram format benchmark', 'ROLF had carousels and image posts in the Instagram sample. It can test Reels without abandoning carousels, which already clear the peer median.', formatChart(report.formatData))}
       <div class="recommendations">
         <article class="recommendation">
           <h3>Turn service posts into proof posts.</h3>
@@ -1227,7 +1238,7 @@ const html = `<!doctype html>
     <section>
       <div class="section-head">
         <h2>Posts worth studying</h2>
-        <p>These Instagram posts led the June peer set by public engagement rate. The common thread is not polish. Each post gives the reader a concrete reason to care.</p>
+        <p>These Instagram posts led the peer set by public engagement rate. The common thread is not polish. Each post gives the reader a concrete reason to care.</p>
       </div>
       <div class="post-list">
         ${topPostCards(report.topIgPosts)}

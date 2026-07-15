@@ -1,5 +1,5 @@
 import type { PostRow, ValidationError, ValidationReport } from '../config/schema';
-import { isInJuneWindow, nowIso } from '../common/dates';
+import { auditWindowLabel, isInAuditWindow, nowIso } from '../common/dates';
 import {
   CAPTION_STYLE_VALUES,
   CTA_TYPE_VALUES,
@@ -55,14 +55,14 @@ export function validateRow(row: PostRow): ValidationError[] {
     err('post_url', 'post_url still carries tracking params', 'warning');
   }
 
-  // Date-window validation: published in June 2026, flagged backfill, or explained
-  const inJune = isInJuneWindow(row.published_at);
+  // Date-window validation: published in the audit window, flagged backfill, or explained.
+  const inWindow = isInAuditWindow(row.published_at);
   if (row.published_at === null) {
     err('published_at', 'Publish timestamp missing (verify manually)', 'warning');
-  } else if (inJune === false && row.backfill_pre_june !== true) {
+  } else if (inWindow === false && row.backfill_pre_june !== true) {
     err(
       'published_at',
-      'Outside June 2026 window and not flagged backfill_pre_june',
+      `Outside audit window (${auditWindowLabel}) and not flagged backfill_pre_june`,
       'warning',
     );
   }

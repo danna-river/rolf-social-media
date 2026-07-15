@@ -1,6 +1,6 @@
 import { CODING_SHEET_CSV, SAMPLING } from '../src/config/constants';
 import type { Platform, PostRow } from '../src/config/schema';
-import { isInJuneWindow } from '../src/common/dates';
+import { auditWindowLabel, isInAuditWindow } from '../src/common/dates';
 import { log } from '../src/common/logger';
 import { loadPostRows } from '../src/common/store';
 import { exportPostsCsv } from '../src/export/to-csv';
@@ -29,7 +29,7 @@ function systematicPick(rows: PostRow[], k: number): PostRow[] {
 
 /**
  * Peer quota: 15–20 posts per organization total, allocated proportionally by
- * June platform activity, min 3 per active platform when possible, max 10 per
+ * audit-window platform activity, min 3 per active platform when possible, max 10 per
  * platform unless the org posted almost exclusively there.
  */
 function allocatePeerQuota(counts: Map<Platform, number>): Map<Platform, number> {
@@ -75,32 +75,32 @@ function allocatePeerQuota(counts: Map<Platform, number>): Map<Platform, number>
 }
 
 function samplePeerOrg(orgRows: PostRow[]): PostRow[] {
-  const juneRows = orgRows.filter((r) => isInJuneWindow(r.published_at) === true);
+  const windowRows = orgRows.filter((r) => isInAuditWindow(r.published_at) === true);
   const counts = new Map<Platform, number>();
-  for (const r of juneRows) counts.set(r.platform, (counts.get(r.platform) ?? 0) + 1);
+  for (const r of windowRows) counts.set(r.platform, (counts.get(r.platform) ?? 0) + 1);
 
   const alloc = allocatePeerQuota(counts);
-  const underQuota = juneRows.length < SAMPLING.peerTargetMin;
+  const underQuota = windowRows.length < SAMPLING.peerTargetMin;
 
   const selected: PostRow[] = [];
   for (const [platform, k] of alloc) {
-    const platformRows = newestFirst(juneRows.filter((r) => r.platform === platform));
+    const platformRows = newestFirst(windowRows.filter((r) => r.platform === platform));
     selected.push(...systematicPick(platformRows, k));
   }
   return selected.map((r) => ({ ...r, under_quota: underQuota, backfill_pre_june: false }));
 }
 
-/** ROLF June-first 30-post rule: June posts newest-first, then flagged pre-June backfill. */
+/** ROLF audit-window-first 30-post rule: window posts newest-first, then flagged backfill. */
 function sampleRolf(orgRows: PostRow[]): PostRow[] {
-  const june = newestFirst(orgRows.filter((r) => isInJuneWindow(r.published_at) === true));
-  const preJune = newestFirst(
-    orgRows.filter((r) => isInJuneWindow(r.published_at) === false),
+  const windowRows = newestFirst(orgRows.filter((r) => isInAuditWindow(r.published_at) === true));
+  const backfill = newestFirst(
+    orgRows.filter((r) => isInAuditWindow(r.published_at) === false),
   );
 
-  const selected: PostRow[] = june
+  const selected: PostRow[] = windowRows
     .slice(0, SAMPLING.rolfSampleSize)
     .map((r) => ({ ...r, backfill_pre_june: false, under_quota: false }));
-  for (const row of preJune) {
+  for (const row of backfill) {
     if (selected.length >= SAMPLING.rolfSampleSize) break;
     selected.push({ ...row, backfill_pre_june: true, under_quota: false });
   }
@@ -129,7 +129,7 @@ function main(): void {
   const sheet: PostRow[] = [];
   for (const [orgId, orgRows] of [...byOrg.entries()].sort()) {
     const sampled = orgId === FOCAL_ORG_ID ? sampleRolf(orgRows) : samplePeerOrg(orgRows);
-    const undated = orgRows.filter((r) => isInJuneWindow(r.published_at) === null).length;
+    const undated = orgRows.filter((r) => isInAuditWindow(r.published_at) === null).length;
     log.info(
       `${orgId}: ${orgRows.length} collected → ${sampled.length} sampled` +
         (undated > 0 ? ` (${undated} rows with unknown dates excluded — verify manually)` : ''),
@@ -142,6 +142,7 @@ function main(): void {
   log.info(
     'Manual coding fields (ica_primary, format_coded, cta_present, cta_type, human_presence, caption_style, impact_packaging, coder_initials) are blank by design.',
   );
+  log.info(`Sampling window: ${auditWindowLabel}`);
   log.info('Reminder: run the 15-post calibration set before full coding; freeze definitions first.');
 }
 

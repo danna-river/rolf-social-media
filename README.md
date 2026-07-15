@@ -1,8 +1,9 @@
 # rolf-social-audit
 
 Low-volume, auditable collection pipeline for the River of Life Foundation (ROLF)
-social media growth audit: ROLF + 20 peer nonprofits across Instagram, Facebook,
-and LinkedIn, June 1–30, 2026 posting window, public metrics only for peers.
+social media growth audit: ROLF + peer nonprofits across Instagram, Facebook,
+and LinkedIn, July 1, 2025 through June 30, 2026 content window, public metrics
+only for peers.
 
 Implements the "Machine-Executable Research Plan for the River of Life Foundation
 Social Media Growth Audit."
@@ -36,7 +37,7 @@ cp .env.example .env   # optional
 
 Fill in `data/seeds/organizations.csv` — one row per organization-platform with
 verified handle + URL, `active=true` to include it in runs. ROLF is
-`organization_id=rolf` (the June-first 30-post rule keys off this id).
+`organization_id=rolf` (the focal-org sampling rule keys off this id).
 
 ## Login (manual, one profile per platform)
 
@@ -55,7 +56,7 @@ default Chrome profile.
 ```bash
 npx tsx scripts/run-account-snapshots.ts --platform instagram --limit 3
 npx tsx scripts/run-post-enumeration.ts  --platform instagram --limit 3
-npx tsx scripts/run-post-metrics.ts      --platform instagram --limit 3 --max-posts 15
+npx tsx scripts/run-post-metrics.ts      --platform instagram --limit 3 --max-posts 75
 ```
 
 Check `data/raw/`, `data/normalized/`, and `evidence/screenshots/` before scaling.
@@ -70,16 +71,18 @@ npx tsx scripts/run-post-metrics.ts      --platform instagram
 ```
 
 Useful flags: `--limit N` (first N orgs), `--org <organization_id>`,
-`--max-urls N` (enumeration cap, default 60), `--max-posts N` (extraction cap
-per org, default 20).
+`--max-urls N` (enumeration cap, default 365), `--max-posts N` (extraction cap
+per org, default 365). For very active accounts, rerun that org with a higher cap
+if validation or the report shows the crawl did not reach July 1, 2025.
 
 ## Manual LinkedIn collection
 
 Company-page URLs for all 9 orgs are in `data/seeds/organizations.csv`
 (linkedin rows). For each org, in a normal logged-in browser session:
 
-1. Open `<company-url>/posts/?feedView=all` and scroll to cover June 1–30, 2026.
-2. For each June post, add one row to `data/normalized/manual_posts.csv`
+1. Open `<company-url>/posts/?feedView=all` and scroll to cover July 1, 2025
+   through June 30, 2026.
+2. For each post in that window, add one row to `data/normalized/manual_posts.csv`
    (start the file by copying `data/templates/manual_post_entry.csv`). Fill at
    minimum: `organization_id` (must match the seed file), `organization_name`,
    `tier`, `platform=linkedin`, `post_url`, `published_at` (ISO date),
@@ -92,9 +95,9 @@ Company-page URLs for all 9 orgs are in `data/seeds/organizations.csv`
    make QA much easier for ambiguous rows.
 
 Derived fields (`public_interactions_count`, `engagement_rate_public_pct`,
-`view_interaction_rate_per_1000`, `in_june_window`, caption length/hashtag/mention
-counts) are computed automatically for manual rows during validation and coding-sheet
-prep — leave them blank. Manual rows flow through `run-validation` and
+`view_interaction_rate_per_1000`, `in_june_window` (legacy column name meaning
+"inside the audit window"), caption length/hashtag/mention counts) are computed
+automatically for manual rows during validation and coding-sheet prep — leave them blank. Manual rows flow through `run-validation` and
 `prepare-coding-sheet` identically to automated rows.
 
 ## Validation and coding prep
@@ -108,10 +111,11 @@ npx tsx scripts/prepare-coding-sheet.ts
   `validation_flags.csv`, and a deterministic 10% `audit_sample.csv` to check
   against live pages/screenshots.
 - `prepare-coding-sheet` → `data/normalized/coding_sheet.csv` with sampling
-  applied: peers get 15–20 June posts allocated proportionally by platform
+  applied: peers get 15–20 audit-window posts allocated proportionally by platform
   (min 3 per active platform, max 10 per platform unless >85% of activity is
-  there; `under_quota=true` when June total < 15). ROLF gets the June-first
-  30-post rule with `backfill_pre_june=true` flags.
+  there; `under_quota=true` when window total < 15). ROLF gets a newest-first
+  30-post sample from the audit window, with `backfill_pre_june=true` only if
+  fallback outside-window rows are needed.
 
 Manual coding fields (`ica_primary`, `format_coded`, `cta_present`, `cta_type`,
 `human_presence`, `caption_style`, `impact_packaging`, `coder_initials`) are
