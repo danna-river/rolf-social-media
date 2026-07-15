@@ -7,6 +7,7 @@ export interface CliOptions {
   maxPosts: number | null;
   org: string | null;
   acceptLinkedInRisk: boolean;
+  skipExisting: boolean;
 }
 
 export function parseCliArgs(argv: string[] = process.argv.slice(2)): CliOptions {
@@ -17,6 +18,7 @@ export function parseCliArgs(argv: string[] = process.argv.slice(2)): CliOptions
     maxPosts: null,
     org: null,
     acceptLinkedInRisk: Boolean(process.env.ROLF_ACCEPT_LINKEDIN_RISK),
+    skipExisting: false,
   };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i]!;
@@ -44,6 +46,9 @@ export function parseCliArgs(argv: string[] = process.argv.slice(2)): CliOptions
         break;
       case '--accept-linkedin-risk':
         opts.acceptLinkedInRisk = true;
+        break;
+      case '--skip-existing':
+        opts.skipExisting = true;
         break;
       default:
         throw new Error(`Unknown argument: ${arg}`);

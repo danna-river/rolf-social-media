@@ -11,8 +11,10 @@ import { isRunStopper } from '../src/common/errors';
 import { log } from '../src/common/logger';
 import { selectSeeds } from '../src/common/seeds';
 import {
+  loadPostRows,
   loadSnapshots,
   mergeAndSavePostRows,
+  postKey,
   readJsonFile,
   snapshotFor,
 } from '../src/common/store';
@@ -42,6 +44,9 @@ async function main(): Promise<void> {
   const extract = postExtractors[platform];
   const pacer = new PostPacer();
   const rows: PostRow[] = [];
+  const existingKeys = opts.skipExisting
+    ? new Set(loadPostRows().filter((r) => r.platform === platform).map(postKey))
+    : new Set<string>();
   let challenged = false;
 
   try {
@@ -54,7 +59,10 @@ async function main(): Promise<void> {
         continue;
       }
       const linkFile = readJsonFile<PostLinkFile | null>(linksPath, null);
-      const urls = (linkFile?.links ?? []).slice(0, maxPosts).map((l) => l.url);
+      const candidateUrls = (linkFile?.links ?? []).slice(0, maxPosts).map((l) => l.url);
+      const urls = opts.skipExisting
+        ? candidateUrls.filter((url) => !existingKeys.has(`${platform}::${url}`))
+        : candidateUrls;
       const snapshot = snapshotFor(snapshots, platform, org.organization_id);
       if (!snapshot) {
         log.warn(
@@ -62,7 +70,10 @@ async function main(): Promise<void> {
         );
       }
 
-      log.info(`${org.organization_id}: extracting ${urls.length} post page(s)`);
+      log.info(
+        `${org.organization_id}: extracting ${urls.length} post page(s)` +
+          (opts.skipExisting ? ` (${candidateUrls.length - urls.length} already in normalized output)` : ''),
+      );
       for (const url of urls) {
         try {
           const row = await withRetries(
