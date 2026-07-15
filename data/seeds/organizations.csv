@@ -1,0 +1,64 @@
+organization_id,organization_name,tier,platform,account_handle,account_url,active,notes
+rolf,River of Life Foundation,focal_org,instagram,@rolforg,https://www.instagram.com/rolforg/,true,focal org; handle verified from rolfusa.org footer 2026-07-14 (plan doc's @riveroflifefoundation was wrong)
+rolf,River of Life Foundation,focal_org,facebook,@ROLFUSA,https://www.facebook.com/ROLFUSA/,true,focal org; verified from rolfusa.org footer 2026-07-14
+rolf,River of Life Foundation,focal_org,linkedin,,https://www.linkedin.com/company/river-of-life-foundation/,false,manual collection chosen 2026-07-14 — URL kept for manual entry
+marthas_kitchen,Martha's Kitchen,south_bay_local,instagram,@marthaskitchensj,https://www.instagram.com/marthaskitchensj/,true,core shortlist; San Jose food security; ~2.1K IG followers 2026-07-15
+marthas_kitchen,Martha's Kitchen,south_bay_local,facebook,@marthaskitchensj,https://www.facebook.com/marthaskitchensj/,true,core shortlist; verified from marthas-kitchen.org footer 2026-07-14
+marthas_kitchen,Martha's Kitchen,south_bay_local,linkedin,,https://www.linkedin.com/company/marthaskitchensj/,false,manual collection chosen 2026-07-14 — URL kept for manual entry
+sunnyvale_cs,Sunnyvale Community Services,south_bay_local,instagram,@sunnyvalecommunityservices,https://www.instagram.com/sunnyvalecommunityservices/,true,core shortlist; homelessness/hunger prevention; ~1.3K IG followers 2026-07-15
+sunnyvale_cs,Sunnyvale Community Services,south_bay_local,facebook,@sunnyvalecommunityservices,https://www.facebook.com/sunnyvalecommunityservices/,true,core shortlist; verified from svcommunityservices.org footer 2026-07-14
+sunnyvale_cs,Sunnyvale Community Services,south_bay_local,linkedin,,https://www.linkedin.com/company/sunnyvale-community-services/,false,manual collection chosen 2026-07-14 — URL kept for manual entry
+sacred_heart_cs,Sacred Heart Community Service,south_bay_local,instagram,@sacredheartcs,https://www.instagram.com/sacredheartcs/,true,core shortlist; San Jose anti-poverty; ~4K IG followers 2026-07-15
+sacred_heart_cs,Sacred Heart Community Service,south_bay_local,facebook,@sacredheartcs,https://www.facebook.com/sacredheartcs/,true,core shortlist; verified from sacredheartcs.org footer 2026-07-14
+sacred_heart_cs,Sacred Heart Community Service,south_bay_local,linkedin,,https://www.linkedin.com/company/sacred-heart-community-service/,false,manual collection chosen 2026-07-14 — URL kept for manual entry
+west_valley_cs,West Valley Community Services,south_bay_local,instagram,@wvcommunityservices,https://www.instagram.com/wvcommunityservices/,true,core shortlist; Cupertino safety-net; ~1.3K IG followers 2026-07-15
+west_valley_cs,West Valley Community Services,south_bay_local,facebook,@wvcommunityservices,https://www.facebook.com/wvcommunityservices/,true,core shortlist; verified from wvcommunityservices.org footer 2026-07-14
+west_valley_cs,West Valley Community Services,south_bay_local,linkedin,,https://www.linkedin.com/company/west-valley-community-services/,false,manual collection chosen 2026-07-14 — URL kept for manual entry
+loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,instagram,@loavesfishessj,https://www.instagram.com/loavesfishessj/,true,core shortlist; prepared meals; ~923 IG followers 2026-07-15
+loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,facebook,@loavesfishessj,https://www.facebook.com/loavesfishessj/,true,core shortlist; verified from loavesfishes.org footer 2026-07-14
+loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,linkedin,,https://www.linkedin.com/company/loaves-&-fishes-family-kitchen/,false,manual collection chosen 2026-07-14 — URL kept for manual entry
+catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,instagram,@catholiccharitiesscc,https://www.instagram.com/catholiccharitiesscc/,true,core shortlist; faith-adjacent anti-poverty; ~1.7K IG followers 2026-07-15
+catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,facebook,@WorkingToEndPoverty,https://www.facebook.com/WorkingToEndPoverty/,true,core shortlist; FB slug differs from name — verified via search 2026-07-14 (ccscc.org blocked fetch); double-check on verification day
+catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,linkedin,,https://www.linkedin.com/company/catholic-charities-of-santa-clara-county/,false,manual collection chosen 2026-07-14 — URL kept for manual entry
+cityteam,CityTeam,south_bay_local,instagram,@cityteam,https://www.instagram.com/cityteam/,true,core shortlist; faith-based hunger/homelessness; ~5.2K IG followers 2026-07-15
+cityteam,CityTeam,south_bay_local,facebook,@cityteam,https://www.facebook.com/cityteam/,true,core shortlist; verified from cityteam.org footer 2026-07-14; note CityTeam is multi-city — SJ content mixed with other regions
+cityteam,CityTeam,south_bay_local,linkedin,,https://www.linkedin.com/company/cityteam/,false,manual collection chosen 2026-07-14 — URL kept for manual entry
+sunday_friends,Sunday Friends,south_bay_local,instagram,@sundayfriends,https://www.instagram.com/sundayfriends/,true,core shortlist; family mobility from poverty; ~675 IG followers 2026-07-15 (closest size match)
+sunday_friends,Sunday Friends,south_bay_local,facebook,@sundayfriends,https://www.facebook.com/sundayfriends/,true,core shortlist; verified from sundayfriends.org footer 2026-07-14
+sunday_friends,Sunday Friends,south_bay_local,linkedin,,https://www.linkedin.com/company/sundayfriends/,false,manual collection chosen 2026-07-14 — URL kept for manual entry
+homefirst,HomeFirst,south_bay_local,instagram,@homefirstservicesscc,https://www.instagram.com/homefirstservicesscc/,false,reserve; homelessness services; ~62 IG followers 2026-07-15
+homefirst,HomeFirst,south_bay_local,facebook,,,false,reserve; TODO verify if activated
+homefirst,HomeFirst,south_bay_local,linkedin,,https://www.linkedin.com/company/homefirstscc/,false,reserve; manual-first
+second_harvest_sv,Second Harvest of Silicon Valley,south_bay_local,instagram,@2ndharvest,https://www.instagram.com/2ndharvest/,false,reserve/stretch; major food bank; ~9K IG followers 2026-07-15
+second_harvest_sv,Second Harvest of Silicon Valley,south_bay_local,facebook,,,false,reserve; TODO verify if activated
+second_harvest_sv,Second Harvest of Silicon Valley,south_bay_local,linkedin,,https://www.linkedin.com/company/second-harvest-food-bank/,false,reserve; manual-first
+lifemoves,LifeMoves,south_bay_local,instagram,@lifemoves_org,https://www.instagram.com/lifemoves_org/,false,reserve; homelessness services Silicon Valley; ~2.8K IG followers 2026-07-15
+lifemoves,LifeMoves,south_bay_local,facebook,,,false,reserve; TODO verify if activated
+lifemoves,LifeMoves,south_bay_local,linkedin,,,false,reserve; manual-first
+alameda_county_cfb,Alameda County Community Food Bank,ca_regional,instagram,@accfb,https://www.instagram.com/accfb/,false,reserve/stretch; East Bay food bank; ~6.3K IG followers 2026-07-15
+alameda_county_cfb,Alameda County Community Food Bank,ca_regional,facebook,,,false,reserve; TODO verify if activated
+alameda_county_cfb,Alameda County Community Food Bank,ca_regional,linkedin,,,false,reserve; manual-first
+sf_marin_food_bank,SF-Marin Food Bank,ca_regional,instagram,@sfmfoodbank,https://www.instagram.com/sfmfoodbank/,false,stretch benchmark; ~7.7K IG followers 2026-07-15
+sf_marin_food_bank,SF-Marin Food Bank,ca_regional,facebook,,,false,stretch; TODO verify if activated
+sf_marin_food_bank,SF-Marin Food Bank,ca_regional,linkedin,,https://www.linkedin.com/company/sfmfoodbank/,false,stretch; manual-first
+second_harvest_santa_cruz,Second Harvest Food Bank Santa Cruz County,ca_regional,instagram,@secondharvestsantacruz,https://www.instagram.com/secondharvestsantacruz/,false,stretch benchmark; ~4182 IG followers 2026-07-15
+second_harvest_santa_cruz,Second Harvest Food Bank Santa Cruz County,ca_regional,facebook,,,false,stretch; TODO verify if activated
+second_harvest_santa_cruz,Second Harvest Food Bank Santa Cruz County,ca_regional,linkedin,,,false,stretch; manual-first
+catholic_charities_east_bay,Catholic Charities East Bay,ca_regional,instagram,@catholiccharitieseastbay,https://www.instagram.com/catholiccharitieseastbay/,false,reserve; faith-adjacent regional; ~1909 IG followers 2026-07-15
+catholic_charities_east_bay,Catholic Charities East Bay,ca_regional,facebook,,,false,reserve; TODO verify if activated
+catholic_charities_east_bay,Catholic Charities East Bay,ca_regional,linkedin,,,false,reserve; manual-first
+food_bank_ccs,Food Bank of Contra Costa and Solano,ca_regional,instagram,@foodbankccs,https://www.instagram.com/foodbankccs/,false,stretch benchmark; ~3964 IG followers 2026-07-15
+food_bank_ccs,Food Bank of Contra Costa and Solano,ca_regional,facebook,,,false,stretch; TODO verify if activated
+food_bank_ccs,Food Bank of Contra Costa and Solano,ca_regional,linkedin,,,false,stretch; manual-first
+feeding_san_diego,Feeding San Diego,ca_regional,instagram,@feedingsandiego,https://www.instagram.com/feedingsandiego/,false,stretch benchmark; ~20.6K IG followers 2026-07-15
+feeding_san_diego,Feeding San Diego,ca_regional,facebook,,,false,stretch; TODO verify if activated
+feeding_san_diego,Feeding San Diego,ca_regional,linkedin,,,false,stretch; manual-first
+la_regional_food_bank,Los Angeles Regional Food Bank,ca_regional,instagram,@lafoodbank,https://www.instagram.com/lafoodbank/,false,reserve/stretch; large-market creative benchmark; ~31.6K IG followers 2026-07-15
+la_regional_food_bank,Los Angeles Regional Food Bank,ca_regional,facebook,,,false,stretch; TODO verify if activated
+la_regional_food_bank,Los Angeles Regional Food Bank,ca_regional,linkedin,,,false,stretch; manual-first
+oc_rescue_mission,Orange County Rescue Mission,national_faith_adjacent,instagram,@ocrescuemission,https://www.instagram.com/ocrescuemission/,false,faith-adjacent stretch (SoCal); ~5780 IG followers 2026-07-15
+oc_rescue_mission,Orange County Rescue Mission,national_faith_adjacent,facebook,,,false,stretch; TODO verify if activated
+oc_rescue_mission,Orange County Rescue Mission,national_faith_adjacent,linkedin,,,false,stretch; manual-first
+union_rescue_mission,Union Rescue Mission,national_faith_adjacent,instagram,@unionrescuemission,https://www.instagram.com/unionrescuemission/,false,faith-adjacent stretch (LA); ~13.5K IG followers 2026-07-15
+union_rescue_mission,Union Rescue Mission,national_faith_adjacent,facebook,,,false,stretch; TODO verify if activated
+union_rescue_mission,Union Rescue Mission,national_faith_adjacent,linkedin,,,false,stretch; manual-first

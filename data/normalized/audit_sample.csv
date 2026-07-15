@@ -1,0 +1,405 @@
+run_id,organization_id,organization_name,tier,platform,account_handle,account_url,account_verified_at,follower_count_snapshot,follower_count_raw_text,post_url,post_id,post_type_url_hint,published_at,published_at_raw,collected_at,caption_text,caption_length_chars,hashtags_count,mentions_count,media_type_public,visible_like_count,visible_comment_count,visible_share_count,visible_view_count,public_interactions_count,engagement_rate_public_pct,view_interaction_rate_per_1000,in_june_window,backfill_pre_june,under_quota,ica_primary,format_coded,cta_present,cta_type,human_presence,caption_style,impact_packaging,coder_initials,qa_status,extraction_status,evidence_screenshot,notes
+2026-07-15T01-02-57_PT_facebook,loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,facebook,@loavesfishessj,https://www.facebook.com/loavesfishessj/,2026-07-15T00:45:44-07:00,2500,2.5K followers,https://www.facebook.com/loavesfishessj/posts/pfbid02jj1jwmRm4WhJsCztMqZ7ytLxaXUiSvSkeKqvDev2t9VDANfQqvEPFtuA4U8AJguwl/,pfbid02jj1jwmRm4WhJsCztMqZ7ytLxaXUiSvSkeKqvDev2t9VDANfQqvEPFtuA4U8AJguwl,posts,2024-12-14T06:21:14.000Z,1734157274,2026-07-15T06:20:39-07:00,"No more posts
+Add more friends to see more posts in your Feed.
+Find friends",75,0,0,unknown,2,0,3,,5,0.2,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,rolf,River of Life Foundation,focal_org,facebook,@ROLFUSA,https://www.facebook.com/ROLFUSA/,2026-07-15T00:44:17-07:00,1200,1.2K followers,https://www.facebook.com/photo/?fbid=1011191257941190&set=pcb.1011191677941148,1011191257941190,photo,2026-06-05T16:00:27.000Z,1780675227,2026-07-15T02:00:10-07:00,,,,,image,1,1,0,,2,0.17,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,rolf,River of Life Foundation,focal_org,facebook,@ROLFUSA,https://www.facebook.com/ROLFUSA/,2026-07-15T00:44:17-07:00,1200,1.2K followers,https://www.facebook.com/photo/?fbid=1017854987274817&set=pcb.1017855260608123,1017854987274817,photo,2026-06-13T16:01:08.000Z,1781366468,2026-07-15T01:25:26-07:00,,,,,image,1,1,0,,2,0.17,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,facebook,@loavesfishessj,https://www.facebook.com/loavesfishessj/,2026-07-15T00:45:44-07:00,2500,2.5K followers,https://www.facebook.com/photo/?fbid=1026245173388434&set=a.118184394194521,1026245173388434,photo,2026-06-28T18:13:00.000Z,1782670380,2026-07-15T06:59:00-07:00,,,,,image,0,0,0,,0,0,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,rolf,River of Life Foundation,focal_org,facebook,@ROLFUSA,https://www.facebook.com/ROLFUSA/,2026-07-15T00:44:17-07:00,1200,1.2K followers,https://www.facebook.com/photo/?fbid=1028435086216807&set=pb.100071509756643.-2207520000,1028435086216807,photo,2026-06-26T16:01:40.000Z,1782489700,2026-07-15T01:09:09-07:00,,,,,image,2,2,0,,4,0.33,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,facebook,@loavesfishessj,https://www.facebook.com/loavesfishessj/,2026-07-15T00:45:44-07:00,2500,2.5K followers,https://www.facebook.com/photo/?fbid=1038689745477310&set=pb.100080088837737.-2207520000,1038689745477310,photo,2026-07-13T15:47:17.000Z,1783957637,2026-07-15T05:20:59-07:00,,,,,image,2,2,0,,4,0.16,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,marthas_kitchen,Martha's Kitchen,south_bay_local,facebook,@marthaskitchensj,https://www.facebook.com/marthaskitchensj/,2026-07-15T00:44:31-07:00,1600,1.6K followers,https://www.facebook.com/photo/?fbid=1287621030248013&set=pcb.1287621283581321,1287621030248013,photo,2026-05-26T15:50:49.000Z,1779810649,2026-07-15T02:36:07-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,marthas_kitchen,Martha's Kitchen,south_bay_local,facebook,@marthaskitchensj,https://www.facebook.com/marthaskitchensj/,2026-07-15T00:44:31-07:00,1600,1.6K followers,https://www.facebook.com/photo/?fbid=1306029665073816&set=a.544131144597009,1306029665073816,photo,2026-06-16T23:32:19.000Z,1781652739,2026-07-15T02:26:51-07:00,,,,,image,3,3,0,,6,0.38,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,marthas_kitchen,Martha's Kitchen,south_bay_local,facebook,@marthaskitchensj,https://www.facebook.com/marthaskitchensj/,2026-07-15T00:44:31-07:00,1600,1.6K followers,https://www.facebook.com/photo/?fbid=1308529734823809&set=pb.100070003834176.-2207520000,1308529734823809,photo,2026-06-21T15:30:01.000Z,1782055801,2026-07-15T02:10:29-07:00,,,,,image,0,0,0,,0,0,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sunday_friends,Sunday Friends,south_bay_local,facebook,@sundayfriends,https://www.facebook.com/sundayfriends/,2026-07-15T00:46:33-07:00,2000,2K followers,https://www.facebook.com/photo/?fbid=1356450006531366&set=a.377725457737164,1356450006531366,photo,2026-04-25T16:01:20.000Z,1777132880,2026-07-15T11:39:21-07:00,"Martha Rodriguez
+ 
+·
+11w
+ 
+·
+by Author
+GIPHY
+Reply",50,0,0,image,3,1,1,,5,0.25,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sunday_friends,Sunday Friends,south_bay_local,facebook,@sundayfriends,https://www.facebook.com/sundayfriends/,2026-07-15T00:46:33-07:00,2000,2K followers,https://www.facebook.com/photo/?fbid=1384778937031806&set=pcb.1384779020365131,1384778937031806,photo,2026-05-29T17:32:06.000Z,1780075926,2026-07-15T11:32:51-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sunday_friends,Sunday Friends,south_bay_local,facebook,@sundayfriends,https://www.facebook.com/sundayfriends/,2026-07-15T00:46:33-07:00,2000,2K followers,https://www.facebook.com/photo/?fbid=1397309229112110&set=pb.100064991372402.-2207520000,1397309229112110,photo,2026-06-12T22:00:39.000Z,1781301639,2026-07-15T11:18:15-07:00,"Martha Rodriguez
+ 
+·
+4w
+ 
+·
+by Author
+GIPHY
+Reply",49,0,0,image,7,1,0,,8,0.4,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sunnyvale_cs,Sunnyvale Community Services,south_bay_local,facebook,@sunnyvalecommunityservices,https://www.facebook.com/sunnyvalecommunityservices/,2026-07-15T00:44:48-07:00,5700,5.7K followers,https://www.facebook.com/photo/?fbid=1419439259991193&set=pcb.1419439343324518,1419439259991193,photo,2026-05-24T14:27:58.000Z,1779632878,2026-07-15T03:17:46-07:00,,,,,image,3,3,0,,6,0.11,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T11-49-46_PT_facebook,cityteam,CityTeam,south_bay_local,facebook,@cityteam,https://www.facebook.com/cityteam/,2026-07-15T00:46:15-07:00,18000,18K followers,https://www.facebook.com/photo/?fbid=1427369002764817&set=pcb.1427369492764768,1427369002764817,photo,2026-06-08T22:00:51.000Z,1780956051,2026-07-15T12:29:18-07:00,,,,,image,0,0,0,,0,0,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T11-49-46_PT_facebook,cityteam,CityTeam,south_bay_local,facebook,@cityteam,https://www.facebook.com/cityteam/,2026-07-15T00:46:15-07:00,18000,18K followers,https://www.facebook.com/photo/?fbid=1439795761522141&set=pcb.1439796084855442,1439795761522141,photo,2026-06-22T20:23:17.000Z,1782159797,2026-07-15T12:20:10-07:00,,,,,image,0,0,0,,0,0,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sacred_heart_cs,Sacred Heart Community Service,south_bay_local,facebook,@sacredheartcs,https://www.facebook.com/sacredheartcs/,2026-07-15T00:45:05-07:00,12000,12K followers,https://www.facebook.com/photo/?fbid=1447860494041838&set=pcb.1447860580708496,1447860494041838,photo,2026-06-23T17:00:15.000Z,1782234015,2026-07-15T04:32:31-07:00,,,,,image,2,2,0,,4,0.03,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sacred_heart_cs,Sacred Heart Community Service,south_bay_local,facebook,@sacredheartcs,https://www.facebook.com/sacredheartcs/,2026-07-15T00:45:05-07:00,12000,12K followers,https://www.facebook.com/photo/?fbid=1454272173400670&set=pcb.1454272203400667,1454272173400670,photo,2026-06-30T17:00:17.000Z,1782838817,2026-07-15T04:26:57-07:00,,,,,image,2,2,0,,4,0.03,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T11-49-46_PT_facebook,cityteam,CityTeam,south_bay_local,facebook,@cityteam,https://www.facebook.com/cityteam/,2026-07-15T00:46:15-07:00,18000,18K followers,https://www.facebook.com/photo/?fbid=1459289179572799&set=pcb.1459289722906078,1459289179572799,photo,2026-07-14T22:51:07.000Z,1784069467,2026-07-15T12:04:29-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sacred_heart_cs,Sacred Heart Community Service,south_bay_local,facebook,@sacredheartcs,https://www.facebook.com/sacredheartcs/,2026-07-15T00:45:05-07:00,12000,12K followers,https://www.facebook.com/photo/?fbid=1459951719499382&set=pcb.1459951752832712,1459951719499382,photo,2026-07-06T17:00:13.000Z,1783357213,2026-07-15T04:09:41-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sacred_heart_cs,Sacred Heart Community Service,south_bay_local,facebook,@sacredheartcs,https://www.facebook.com/sacredheartcs/,2026-07-15T00:45:05-07:00,12000,12K followers,https://www.facebook.com/photo/?fbid=1466261088868445&set=pb.100064537040574.-2207520000,1466261088868445,photo,2026-07-13T19:13:43.000Z,1783970023,2026-07-15T03:58:02-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sacred_heart_cs,Sacred Heart Community Service,south_bay_local,facebook,@sacredheartcs,https://www.facebook.com/sacredheartcs/,2026-07-15T00:45:05-07:00,12000,12K followers,https://www.facebook.com/photo/?fbid=1467032408791313&set=pb.100064537040574.-2207520000,1467032408791313,photo,2026-07-14T16:46:21.000Z,1784047581,2026-07-15T03:34:54-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,west_valley_cs,West Valley Community Services,south_bay_local,facebook,@wvcommunityservices,https://www.facebook.com/wvcommunityservices/,2026-07-15T00:45:23-07:00,1400,1.4K followers,https://www.facebook.com/photo/?fbid=1471726524994169&set=a.386150570218442,1471726524994169,photo,2026-06-18T23:20:38.000Z,1781824838,2026-07-15T05:00:34-07:00,,,,,image,1,1,0,,2,0.14,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,west_valley_cs,West Valley Community Services,south_bay_local,facebook,@wvcommunityservices,https://www.facebook.com/wvcommunityservices/,2026-07-15T00:45:23-07:00,1400,1.4K followers,https://www.facebook.com/photo/?fbid=1476013461232142&set=a.386150570218442,1476013461232142,photo,2026-06-23T19:00:50.000Z,1782241250,2026-07-15T04:54:55-07:00,,,,,image,4,4,0,,8,0.57,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,facebook,@WorkingToEndPoverty,https://www.facebook.com/WorkingToEndPoverty/,2026-07-15T00:45:58-07:00,5300,5.3K followers,https://www.facebook.com/photo/?fbid=1488375389995825&set=pcb.1488375419995822,1488375389995825,photo,2026-07-10T22:00:08.000Z,1783720808,2026-07-15T09:01:14-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,facebook,@WorkingToEndPoverty,https://www.facebook.com/WorkingToEndPoverty/,2026-07-15T00:45:58-07:00,5300,5.3K followers,https://www.facebook.com/photo/?fbid=1489984273168270&set=pcb.1489984306501600,1489984273168270,photo,2026-07-12T20:00:04.000Z,1783886404,2026-07-15T09:09:04-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,facebook,@WorkingToEndPoverty,https://www.facebook.com/WorkingToEndPoverty/,2026-07-15T00:45:58-07:00,5300,5.3K followers,https://www.facebook.com/photo/?fbid=1491814562985241&set=pb.100064701339548.-2207520000,1491814562985241,photo,2026-07-15T00:00:05.000Z,1784073605,2026-07-15T07:57:23-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,facebook,@WorkingToEndPoverty,https://www.facebook.com/WorkingToEndPoverty/,2026-07-15T00:45:58-07:00,5300,5.3K followers,https://www.facebook.com/photo/?fbid=1491814582985239&set=pb.100064701339548.-2207520000,1491814582985239,photo,2026-07-15T00:00:05.000Z,1784073605,2026-07-15T07:34:42-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sunnyvale_cs,Sunnyvale Community Services,south_bay_local,facebook,@sunnyvalecommunityservices,https://www.facebook.com/sunnyvalecommunityservices/,2026-07-15T00:44:48-07:00,5700,5.7K followers,https://www.facebook.com/photo/?fbid=1617641037036968&set=a.714841950650219,1617641037036968,photo,2026-06-11T19:34:53.000Z,1781206493,2026-07-15T03:09:56-07:00,"Michael Thomason
+ 
+·
+4w
+Congratulations 
+Reply",46,0,0,image,34,1,0,,35,0.61,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sunnyvale_cs,Sunnyvale Community Services,south_bay_local,facebook,@sunnyvalecommunityservices,https://www.facebook.com/sunnyvalecommunityservices/,2026-07-15T00:44:48-07:00,5700,5.7K followers,https://www.facebook.com/photo/?fbid=1636601671807571&set=pb.100063732602285.-2207520000,1636601671807571,photo,2026-07-01T19:19:58.000Z,1782933598,2026-07-15T02:52:05-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,facebook,@loavesfishessj,https://www.facebook.com/loavesfishessj/,2026-07-15T00:45:44-07:00,2500,2.5K followers,https://www.facebook.com/photo/?fbid=1843538463484480&set=pcb.1843541370150856,1843538463484480,photo,2026-05-15T23:29:16.000Z,1778887756,2026-07-15T07:30:22-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T01-02-57_PT_facebook,sunnyvale_cs,Sunnyvale Community Services,south_bay_local,facebook,@sunnyvalecommunityservices,https://www.facebook.com/sunnyvalecommunityservices/,2026-07-15T00:44:48-07:00,5700,5.7K followers,https://www.facebook.com/photo/?fbid=714841967316884&set=a.714841953983552,714841967316884,photo,2023-05-19T13:33:52.000Z,1684503232,2026-07-15T02:45:19-07:00,,,,,image,0,0,0,,0,0,,false,,,,,,,,,,,unchecked,complete,,repaired from evidence html 2026-07-15T12:30:52-07:00 (facebook embedded payload)
+2026-07-15T01-02-57_PT_facebook,loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,facebook,@loavesfishessj,https://www.facebook.com/loavesfishessj/,2026-07-15T00:45:44-07:00,2500,2.5K followers,https://www.facebook.com/photo/?fbid=995017746511177&set=a.118184394194521,995017746511177,photo,2026-05-22T22:11:14.000Z,1779487874,2026-07-15T07:15:22-07:00,,,,,image,2,2,0,,4,0.16,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,instagram,@catholiccharitiesscc,https://www.instagram.com/catholiccharitiesscc/,2026-07-14T23:50:12-07:00,1686,"1,686 followers",https://www.instagram.com/catholiccharitiesscc/p/DagD1xYjYs7/,DagD1xYjYs7,p,2026-07-07T18:00:13.000Z,1w,2026-07-15T00:56:58-07:00,"Storytime came to life in the most unforgettable way! 
+Families at our Educare family resource center enjoyed an exciting interactive reading of We're Going on a Bear Hunt, where children stomped through the ""grass,"" splashed through the ""river,"" and bravely searched for the bear alongside storytellers from Bay Area Discovery Museum.
+This hands-on adventure included sculpting scenes from the book made from dry clay and wildflowers. This lively experience sparked imaginations, encouraged a love of reading, and created joyful memories for children and parents alike. We're so grateful to our community partners for bringing enriching experiences like this to local families and making learning fun for everyone! Learn more about our Family Resource Centers:  https://bit.ly/CCSCC-FRC 
+FIRST 5 Santa Clara County San Jose Public Library Franklin-McKinley School District 
+#CCSCC #museum",889,2,0,carousel,10,0,,,10,0.59,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,instagram,@catholiccharitiesscc,https://www.instagram.com/catholiccharitiesscc/,2026-07-14T23:50:12-07:00,1686,"1,686 followers",https://www.instagram.com/catholiccharitiesscc/p/Dal2pU-DDtF/,Dal2pU-DDtF,p,2026-07-10T00:00:22.000Z,5d,2026-07-15T00:53:52-07:00,"Storytime came to life in the most unforgettable way! 
+Families at our Educare family resource center enjoyed an exciting interactive reading of We're Going on a Bear Hunt, where children stomped through the ""grass,"" splashed through the ""river,"" and bravely searched for the bear alongside storytellers from Bay Area Discovery Museum.
+This hands-on adventure included sculpting scenes from the book made from dry clay and wildflowers. This lively experience sparked imaginations, encouraged a love of reading, and created joyful memories for children and parents alike. We're so grateful to our community partners for bringing enriching experiences like this to local families and making learning fun for everyone! Learn more about our Family Resource Centers:  https://bit.ly/CCSCC-FRC 
+FIRST 5 Santa Clara County San Jose Public Library Franklin-McKinley School District 
+#CCSCC #museum",889,2,0,carousel,2,0,,,2,0.12,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,instagram,@catholiccharitiesscc,https://www.instagram.com/catholiccharitiesscc/,2026-07-14T23:50:12-07:00,1686,"1,686 followers",https://www.instagram.com/catholiccharitiesscc/p/DaqXEhEiNsV/,DaqXEhEiNsV,p,2026-07-11T18:00:41.000Z,3d,2026-07-15T00:53:07-07:00,"Storytime came to life in the most unforgettable way! 
+Families at our Educare family resource center enjoyed an exciting interactive reading of We're Going on a Bear Hunt, where children stomped through the ""grass,"" splashed through the ""river,"" and bravely searched for the bear alongside storytellers from Bay Area Discovery Museum.
+This hands-on adventure included sculpting scenes from the book made from dry clay and wildflowers. This lively experience sparked imaginations, encouraged a love of reading, and created joyful memories for children and parents alike. We're so grateful to our community partners for bringing enriching experiences like this to local families and making learning fun for everyone! Learn more about our Family Resource Centers:  https://bit.ly/CCSCC-FRC 
+FIRST 5 Santa Clara County San Jose Public Library Franklin-McKinley School District 
+#CCSCC #museum",889,2,0,carousel,1,0,,,1,0.06,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,catholic_charities_scc,Catholic Charities of Santa Clara County,south_bay_local,instagram,@catholiccharitiesscc,https://www.instagram.com/catholiccharitiesscc/,2026-07-14T23:50:12-07:00,1686,"1,686 followers",https://www.instagram.com/catholiccharitiesscc/p/DayunoUFLQ9/,DayunoUFLQ9,p,2026-07-15T00:00:21.000Z,7h,2026-07-15T00:51:43-07:00,"Storytime came to life in the most unforgettable way! 
+Families at our Educare family resource center enjoyed an exciting interactive reading of We're Going on a Bear Hunt, where children stomped through the ""grass,"" splashed through the ""river,"" and bravely searched for the bear alongside storytellers from Bay Area Discovery Museum.
+This hands-on adventure included sculpting scenes from the book made from dry clay and wildflowers. This lively experience sparked imaginations, encouraged a love of reading, and created joyful memories for children and parents alike. We're so grateful to our community partners for bringing enriching experiences like this to local families and making learning fun for everyone! Learn more about our Family Resource Centers:  https://bit.ly/CCSCC-FRC 
+FIRST 5 Santa Clara County San Jose Public Library Franklin-McKinley School District 
+#CCSCC #museum",889,2,0,carousel,1,0,,,1,0.06,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,cityteam,CityTeam,south_bay_local,instagram,@cityteam,https://www.instagram.com/cityteam/,2026-07-14T23:50:29-07:00,5222,"5,222 followers",https://www.instagram.com/cityteam/p/DVhTCrQElUU/,DVhTCrQElUU,p,2026-03-05T22:55:05.000Z,18w,2026-07-15T01:00:51-07:00,"🥬Everyone deserves access to fresh, nutritious food.⁠
+⁠
+🛍️Our recent farmers market-style food pantry event was designed to give individuals and families the opportunity to choose free groceries that best fit their needs, creating a more personal and dignified experience.⁠
+⁠
+💻️If you know someone who may need assistance, visit cityteam.org/gethelp 
+
+#foodpantry #foodwithdignity #communitycare #southbayarea",412,4,0,carousel,21,0,,,21,0.4,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,cityteam,CityTeam,south_bay_local,instagram,@cityteam,https://www.instagram.com/cityteam/,2026-07-14T23:50:29-07:00,5222,"5,222 followers",https://www.instagram.com/cityteam/p/DYScO3wGLcp/,DYScO3wGLcp,p,2026-05-13T18:01:34.000Z,8w,2026-07-15T00:59:38-07:00,"🥬Everyone deserves access to fresh, nutritious food.⁠
+⁠
+🛍️Our recent farmers market-style food pantry event was designed to give individuals and families the opportunity to choose free groceries that best fit their needs, creating a more personal and dignified experience.⁠
+⁠
+💻️If you know someone who may need assistance, visit cityteam.org/gethelp 
+
+#foodpantry #foodwithdignity #communitycare #southbayarea",412,4,0,carousel,22,1,,,23,0.44,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,cityteam,CityTeam,south_bay_local,instagram,@cityteam,https://www.instagram.com/cityteam/,2026-07-14T23:50:29-07:00,5222,"5,222 followers",https://www.instagram.com/cityteam/reel/DWE9SMGiufF/,DWE9SMGiufF,reel,2026-03-19T19:19:59.000Z,16w,2026-07-15T01:00:20-07:00,"🥬Everyone deserves access to fresh, nutritious food.⁠
+⁠
+🛍️Our recent farmers market-style food pantry event was designed to give individuals and families the opportunity to choose free groceries that best fit their needs, creating a more personal and dignified experience.⁠
+⁠
+💻️If you know someone who may need assistance, visit cityteam.org/gethelp 
+
+#foodpantry #foodwithdignity #communitycare #southbayarea",412,4,0,reel,31,1,,,32,0.61,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,instagram,@loavesfishessj,https://www.instagram.com/loavesfishessj/,2026-07-14T23:49:58-07:00,923,923 followers,https://www.instagram.com/loavesfishessj/p/DanlK1ZgQJ4/,DanlK1ZgQJ4,p,2026-07-10T16:06:10.000Z,4d,2026-07-15T00:44:17-07:00,"Great news 🎉
+
+Starting this Friday (March 6th), we are now serving Community Meals at the Jerry Larson FoodBasket every Friday from 1-2pm!
+
+We’ve expanded our services to make our free meals more accessible to everyone in our community. Visit our website for more information. 
+
+Know someone who could use a warm meal? Please share this post 💚
+
+#loavesandfishes #communitymeals #sanjose #foodsecurity #freefood",412,5,0,image_or_unknown,0,0,,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,instagram,@loavesfishessj,https://www.instagram.com/loavesfishessj/,2026-07-14T23:49:58-07:00,923,923 followers,https://www.instagram.com/loavesfishessj/p/DWR7005AgR-/,DWR7005AgR-,p,2026-03-24T20:15:19.000Z,16w,2026-07-15T00:49:06-07:00,"Great news 🎉
+
+Starting this Friday (March 6th), we are now serving Community Meals at the Jerry Larson FoodBasket every Friday from 1-2pm!
+
+We’ve expanded our services to make our free meals more accessible to everyone in our community. Visit our website for more information. 
+
+Know someone who could use a warm meal? Please share this post 💚
+
+#loavesandfishes #communitymeals #sanjose #foodsecurity #freefood",412,5,0,image_or_unknown,1,0,,,1,0.11,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,instagram,@loavesfishessj,https://www.instagram.com/loavesfishessj/,2026-07-14T23:49:58-07:00,923,923 followers,https://www.instagram.com/loavesfishessj/p/DYiZDQKPVi9/,DYiZDQKPVi9,p,2026-05-19T22:46:03.000Z,8w,2026-07-15T00:47:26-07:00,"Great news 🎉
+
+Starting this Friday (March 6th), we are now serving Community Meals at the Jerry Larson FoodBasket every Friday from 1-2pm!
+
+We’ve expanded our services to make our free meals more accessible to everyone in our community. Visit our website for more information. 
+
+Know someone who could use a warm meal? Please share this post 💚
+
+#loavesandfishes #communitymeals #sanjose #foodsecurity #freefood",412,5,0,image_or_unknown,5,0,,,5,0.54,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,loaves_fishes_sj,Loaves & Fishes Family Kitchen,south_bay_local,instagram,@loavesfishessj,https://www.instagram.com/loavesfishessj/,2026-07-14T23:49:58-07:00,923,923 followers,https://www.instagram.com/loavesfishessj/p/DZu8XRXFeM6/,DZu8XRXFeM6,p,2026-06-18T16:12:06.000Z,3w,2026-07-15T00:46:07-07:00,"Great news 🎉
+
+Starting this Friday (March 6th), we are now serving Community Meals at the Jerry Larson FoodBasket every Friday from 1-2pm!
+
+We’ve expanded our services to make our free meals more accessible to everyone in our community. Visit our website for more information. 
+
+Know someone who could use a warm meal? Please share this post 💚
+
+#loavesandfishes #communitymeals #sanjose #foodsecurity #freefood",412,5,0,image_or_unknown,1,0,,,1,0.11,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,marthas_kitchen,Martha's Kitchen,south_bay_local,instagram,@marthaskitchensj,https://www.instagram.com/marthaskitchensj/,2026-07-14T23:48:59-07:00,2076,"2,076 followers",https://www.instagram.com/marthaskitchensj/p/DWCproFAZvC/,DWCproFAZvC,p,2026-03-18T21:48:06.000Z,16w,2026-07-15T00:14:30-07:00,"I visited @marthaskitchensj in San Jose yesterday to help serve dinner. Food kitchens like this have become even more important due to policies in Republicans’ Big Ugly Law, which slashed food assistance for over 4 million Americans.
+
+We must reverse these cuts.",262,0,1,carousel,15,0,,,15,0.72,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,marthas_kitchen,Martha's Kitchen,south_bay_local,instagram,@marthaskitchensj,https://www.instagram.com/marthaskitchensj/,2026-07-14T23:48:59-07:00,2076,"2,076 followers",https://www.instagram.com/marthaskitchensj/p/DXxK7JIgccg/,DXxK7JIgccg,p,2026-04-30T19:55:01.000Z,10w,2026-07-15T00:12:33-07:00,"I visited @marthaskitchensj in San Jose yesterday to help serve dinner. Food kitchens like this have become even more important due to policies in Republicans’ Big Ugly Law, which slashed food assistance for over 4 million Americans.
+
+We must reverse these cuts.",262,0,1,image_or_unknown,21,1,,,22,1.06,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,marthas_kitchen,Martha's Kitchen,south_bay_local,instagram,@marthaskitchensj,https://www.instagram.com/marthaskitchensj/,2026-07-14T23:48:59-07:00,2076,"2,076 followers",https://www.instagram.com/marthaskitchensj/p/DZqlBvVjzyg/,DZqlBvVjzyg,p,2026-06-16T23:31:13.000Z,4w,2026-07-15T00:10:39-07:00,"I visited @marthaskitchensj in San Jose yesterday to help serve dinner. Food kitchens like this have become even more important due to policies in Republicans’ Big Ugly Law, which slashed food assistance for over 4 million Americans.
+
+We must reverse these cuts.",262,0,1,image_or_unknown,8,0,,,8,0.39,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,rolf,River of Life Foundation,focal_org,instagram,@rolforg,https://www.instagram.com/rolforg/,2026-07-14T23:48:48-07:00,742,742 followers,https://www.instagram.com/rolforg/p/DRIkZ0SEknB/,DRIkZ0SEknB,p,2025-11-16T22:20:44.000Z,34w,2026-07-15T00:03:27-07:00,"Dear Volunteers, Yesterday’s Event Shone Bright Because of You 🌟 You Were the True Stars!
+
+Those of you who started setting up the night before still arrived early in the cold yesterday;
+some didn’t even get a bite to eat, some ran around covering every little need,
+some comforted nervous children with your smiles, and some stayed until the very end to restore the venue.
+
+Every small action made hundreds of families feel warmth.
+Because of you, children laughed with joy, and every family could fully enjoy the happiness of Thanksgiving.
+
+🙏 Dear volunteers, thank you for your hard work.
+Thanks for all the love and effort you put into our community!
+We are so proud to have all of you!
+
+親愛的志工們，昨天的活動因你們而精彩 🌟 最亮眼的，其實是你！
+
+從前一天晚上就開始忙碌場佈的你們，昨天依然頂著低溫提早到場；
+有人忙到沒吃一口午餐、有人從頭到尾補位跑動、
+有人用笑容安撫緊張的小朋友、有人留下來把場地恢復原樣。
+
+每一個小小的動作，都讓成千上百個家庭感受到溫暖。
+因為你們，孩子們開心地笑出聲，每個家庭都能盡情享受感恩節的歡樂。
+
+🙏 親愛的志工們，辛苦了。
+謝謝你們為社區付出的努力跟愛！
+我們很驕傲能擁有你們！",912,0,0,image_or_unknown,20,0,,,20,2.7,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,rolf,River of Life Foundation,focal_org,instagram,@rolforg,https://www.instagram.com/rolforg/,2026-07-14T23:48:48-07:00,742,742 followers,https://www.instagram.com/rolforg/p/DUOREnPjIa3/,DUOREnPjIa3,p,2026-02-01T17:02:00.000Z,23w,2026-07-15T00:06:31-07:00,"We want you to know that you don’t have to face challenges alone—we’re here for you! ❤️ Our Food Pantry is open and ready to serve our neighbors with fresh groceries and support. Check out our current hours!
+
+我們希望讓您知道，您不必獨自面對挑戰——我們一直在這裡支持您！ ❤️ 我們的食物發放中心已準備就緒，為鄰里提供新鮮食材與關懷。請查看開放時間！
+
+#RiverOfLifeFoundation #ROLF #FoodPantry #CommunitySupport #EndHunger WeAreHereForYou 生命河基金會 食物倉庫 社區關懷 慈善公益",389,5,0,image_or_unknown,2,0,,,2,0.27,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,rolf,River of Life Foundation,focal_org,instagram,@rolforg,https://www.instagram.com/rolforg/,2026-07-14T23:48:48-07:00,742,742 followers,https://www.instagram.com/rolforg/p/DZiDXpNknAY/,DZiDXpNknAY,p,2026-06-14T02:48:20.000Z,4w,2026-07-15T00:03:58-07:00,"We want you to know that you don’t have to face challenges alone—we’re here for you! ❤️ Our Food Pantry is open and ready to serve our neighbors with fresh groceries and support. Check out our current hours!
+
+我們希望讓您知道，您不必獨自面對挑戰——我們一直在這裡支持您！ ❤️ 我們的食物發放中心已準備就緒，為鄰里提供新鮮食材與關懷。請查看開放時間！
+
+#RiverOfLifeFoundation #ROLF #FoodPantry #CommunitySupport #EndHunger WeAreHereForYou 生命河基金會 食物倉庫 社區關懷 慈善公益",389,5,0,carousel,7,0,,,7,0.94,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,rolf,River of Life Foundation,focal_org,instagram,@rolforg,https://www.instagram.com/rolforg/,2026-07-14T23:48:48-07:00,742,742 followers,https://www.instagram.com/rolforg/reel/DX7haZdPIFy/,DX7haZdPIFy,reel,2026-05-04T20:24:15.000Z,10w,2026-07-15T00:04:36-07:00,"We want you to know that you don’t have to face challenges alone—we’re here for you! ❤️ Our Food Pantry is open and ready to serve our neighbors with fresh groceries and support. Check out our current hours!
+
+我們希望讓您知道，您不必獨自面對挑戰——我們一直在這裡支持您！ ❤️ 我們的食物發放中心已準備就緒，為鄰里提供新鮮食材與關懷。請查看開放時間！
+
+#RiverOfLifeFoundation #ROLF #FoodPantry #CommunitySupport #EndHunger WeAreHereForYou 生命河基金會 食物倉庫 社區關懷 慈善公益",389,5,0,reel,1,0,,,1,0.13,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sacred_heart_cs,Sacred Heart Community Service,south_bay_local,instagram,@sacredheartcs,https://www.instagram.com/sacredheartcs/,2026-07-14T23:49:25-07:00,2942,"2,942 followers",https://www.instagram.com/sacredheartcs/p/DT_Pi1qAHIL/,DT_Pi1qAHIL,p,2026-01-26T20:59:12.000Z,24w,2026-07-15T00:27:17-07:00,"As families continue to struggle with the high cost of living, thousands of local students lack the basic school supplies they need to start the school year ready to learn.
+
+According to the 2025 Silicon Valley Pain Index:
+
+- More than 2,200 San José students are experiencing homelessness, nearly triple the number reported in 2020.
+- Santa Clara County has the nation's highest rate of unsheltered, unaccompanied homeless youth.
+- More than 26,500 children in the county live below the federal poverty level.
+
+Each year, Sacred Heart Community Service provides backpacks and school supplies to more than 3,500 students, with more than 900 new families joining the program last year alone.
+
+You can also be part of supporting Pack a Back 2026 by volunteering, sharing this post, donating and getting involved! 
+
+More information in the link in our bio! 
+
+#sacredheartcs #communityunited",887,2,0,carousel,9,0,,,9,0.31,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sacred_heart_cs,Sacred Heart Community Service,south_bay_local,instagram,@sacredheartcs,https://www.instagram.com/sacredheartcs/,2026-07-14T23:49:25-07:00,2942,"2,942 followers",https://www.instagram.com/sacredheartcs/p/DWHZV8iAZMT/,DWHZV8iAZMT,p,2026-04-08T00:24:43.000Z,14w,2026-07-15T00:26:32-07:00,"As families continue to struggle with the high cost of living, thousands of local students lack the basic school supplies they need to start the school year ready to learn.
+
+According to the 2025 Silicon Valley Pain Index:
+
+- More than 2,200 San José students are experiencing homelessness, nearly triple the number reported in 2020.
+- Santa Clara County has the nation's highest rate of unsheltered, unaccompanied homeless youth.
+- More than 26,500 children in the county live below the federal poverty level.
+
+Each year, Sacred Heart Community Service provides backpacks and school supplies to more than 3,500 students, with more than 900 new families joining the program last year alone.
+
+You can also be part of supporting Pack a Back 2026 by volunteering, sharing this post, donating and getting involved! 
+
+More information in the link in our bio! 
+
+#sacredheartcs #communityunited",887,2,0,carousel,41,0,,,41,1.39,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sacred_heart_cs,Sacred Heart Community Service,south_bay_local,instagram,@sacredheartcs,https://www.instagram.com/sacredheartcs/,2026-07-14T23:49:25-07:00,2942,"2,942 followers",https://www.instagram.com/sacredheartcs/p/DZqAijclj02/,DZqAijclj02,p,2026-06-16T18:12:23.000Z,4w,2026-07-15T00:22:52-07:00,"As families continue to struggle with the high cost of living, thousands of local students lack the basic school supplies they need to start the school year ready to learn.
+
+According to the 2025 Silicon Valley Pain Index:
+
+- More than 2,200 San José students are experiencing homelessness, nearly triple the number reported in 2020.
+- Santa Clara County has the nation's highest rate of unsheltered, unaccompanied homeless youth.
+- More than 26,500 children in the county live below the federal poverty level.
+
+Each year, Sacred Heart Community Service provides backpacks and school supplies to more than 3,500 students, with more than 900 new families joining the program last year alone.
+
+You can also be part of supporting Pack a Back 2026 by volunteering, sharing this post, donating and getting involved! 
+
+More information in the link in our bio! 
+
+#sacredheartcs #communityunited",887,2,0,carousel,33,0,,,33,1.12,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sunday_friends,Sunday Friends,south_bay_local,instagram,@sundayfriends,https://www.instagram.com/sundayfriends/,2026-07-14T23:50:42-07:00,678,678 followers,https://www.instagram.com/sundayfriends/p/DaEKmGWGuWi/,DaEKmGWGuWi,p,2026-06-26T22:00:41.000Z,2w,2026-07-15T01:04:20-07:00,"Nominations Are Open for the 2026 Silicon Valley Kindness Awards!
+
+Who inspires you? Who leads with courage, compassion, and action?
+
+Sunday Friends is seeking nominations for the 2026 Silicon Valley Kindness Awards, recognizing the extraordinary individuals, organizations, volunteers, advocates, innovators, and business leaders who are transforming our communities through kindness in action.
+
+At Sunday Friends, we believe Revolutionary Kindness is more than a gesture—it is action that challenges injustice, creates opportunity, and strengthens our communities. We're looking for the Kindness Warriors whose commitment to others is creating lasting change across Silicon Valley.
+
+2026 Award Categories
+
+Business Award – Honoring companies that strengthen communities through partnership and opportunity.
+
+Education Award – Recognizing organizations that expand access to education and opportunity.
+
+Philanthropy Award – Honoring foundations and individuals whose generosity expands opportunity, strengthens dignity, and drives lasting change through trust, partnership, and sustained investment in community.
+
+Volunteer Award – Recognizing individuals whose service strengthens families and communities.
+
+Civic Award – Celebrating public leaders advancing innovative solutions and economic opportunity.
+
+Lifetime Achievement Award – Honoring extraordinary leadership and a lifetime of community impact.
+
+Do you know someone who embodies extraordinary compassion, leadership, and service? Nominate them today and help us celebrate the people building stronger, healthier, and more connected communities.
+
+Awards Celebration: September 18, 2026
+Adobe World Headquarters, San Jose
+
+🔗 Submit your nomination today: >>Check Link in Bio<<
+
+Nominations close August 1, 2026.
+
+Please help us spread the word by sharing this post with your friends, colleagues, and community networks.
+
+Because extraordinary people build extraordinary communities.",1944,0,0,image_or_unknown,0,0,,,0,0,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sunday_friends,Sunday Friends,south_bay_local,instagram,@sundayfriends,https://www.instagram.com/sundayfriends/,2026-07-14T23:50:42-07:00,678,678 followers,https://www.instagram.com/sundayfriends/p/DWr30jmmtU-/,DWr30jmmtU-,p,2026-04-03T22:00:42.000Z,14w,2026-07-15T01:08:16-07:00,"Nominations Are Open for the 2026 Silicon Valley Kindness Awards!
+
+Who inspires you? Who leads with courage, compassion, and action?
+
+Sunday Friends is seeking nominations for the 2026 Silicon Valley Kindness Awards, recognizing the extraordinary individuals, organizations, volunteers, advocates, innovators, and business leaders who are transforming our communities through kindness in action.
+
+At Sunday Friends, we believe Revolutionary Kindness is more than a gesture—it is action that challenges injustice, creates opportunity, and strengthens our communities. We're looking for the Kindness Warriors whose commitment to others is creating lasting change across Silicon Valley.
+
+2026 Award Categories
+
+Business Award – Honoring companies that strengthen communities through partnership and opportunity.
+
+Education Award – Recognizing organizations that expand access to education and opportunity.
+
+Philanthropy Award – Honoring foundations and individuals whose generosity expands opportunity, strengthens dignity, and drives lasting change through trust, partnership, and sustained investment in community.
+
+Volunteer Award – Recognizing individuals whose service strengthens families and communities.
+
+Civic Award – Celebrating public leaders advancing innovative solutions and economic opportunity.
+
+Lifetime Achievement Award – Honoring extraordinary leadership and a lifetime of community impact.
+
+Do you know someone who embodies extraordinary compassion, leadership, and service? Nominate them today and help us celebrate the people building stronger, healthier, and more connected communities.
+
+Awards Celebration: September 18, 2026
+Adobe World Headquarters, San Jose
+
+🔗 Submit your nomination today: >>Check Link in Bio<<
+
+Nominations close August 1, 2026.
+
+Please help us spread the word by sharing this post with your friends, colleagues, and community networks.
+
+Because extraordinary people build extraordinary communities.",1944,0,0,image_or_unknown,9,1,,,10,1.47,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sunday_friends,Sunday Friends,south_bay_local,instagram,@sundayfriends,https://www.instagram.com/sundayfriends/,2026-07-14T23:50:42-07:00,678,678 followers,https://www.instagram.com/sundayfriends/p/DXxZTj4jIBm/,DXxZTj4jIBm,p,2026-04-30T22:00:51.000Z,10w,2026-07-15T01:07:22-07:00,"Nominations Are Open for the 2026 Silicon Valley Kindness Awards!
+
+Who inspires you? Who leads with courage, compassion, and action?
+
+Sunday Friends is seeking nominations for the 2026 Silicon Valley Kindness Awards, recognizing the extraordinary individuals, organizations, volunteers, advocates, innovators, and business leaders who are transforming our communities through kindness in action.
+
+At Sunday Friends, we believe Revolutionary Kindness is more than a gesture—it is action that challenges injustice, creates opportunity, and strengthens our communities. We're looking for the Kindness Warriors whose commitment to others is creating lasting change across Silicon Valley.
+
+2026 Award Categories
+
+Business Award – Honoring companies that strengthen communities through partnership and opportunity.
+
+Education Award – Recognizing organizations that expand access to education and opportunity.
+
+Philanthropy Award – Honoring foundations and individuals whose generosity expands opportunity, strengthens dignity, and drives lasting change through trust, partnership, and sustained investment in community.
+
+Volunteer Award – Recognizing individuals whose service strengthens families and communities.
+
+Civic Award – Celebrating public leaders advancing innovative solutions and economic opportunity.
+
+Lifetime Achievement Award – Honoring extraordinary leadership and a lifetime of community impact.
+
+Do you know someone who embodies extraordinary compassion, leadership, and service? Nominate them today and help us celebrate the people building stronger, healthier, and more connected communities.
+
+Awards Celebration: September 18, 2026
+Adobe World Headquarters, San Jose
+
+🔗 Submit your nomination today: >>Check Link in Bio<<
+
+Nominations close August 1, 2026.
+
+Please help us spread the word by sharing this post with your friends, colleagues, and community networks.
+
+Because extraordinary people build extraordinary communities.",1944,0,0,image_or_unknown,1,0,,,1,0.15,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sunday_friends,Sunday Friends,south_bay_local,instagram,@sundayfriends,https://www.instagram.com/sundayfriends/,2026-07-14T23:50:42-07:00,678,678 followers,https://www.instagram.com/sundayfriends/p/DZOF-cDGuI_/,DZOF-cDGuI_,p,2026-06-05T22:01:18.000Z,5w,2026-07-15T01:04:43-07:00,"Nominations Are Open for the 2026 Silicon Valley Kindness Awards!
+
+Who inspires you? Who leads with courage, compassion, and action?
+
+Sunday Friends is seeking nominations for the 2026 Silicon Valley Kindness Awards, recognizing the extraordinary individuals, organizations, volunteers, advocates, innovators, and business leaders who are transforming our communities through kindness in action.
+
+At Sunday Friends, we believe Revolutionary Kindness is more than a gesture—it is action that challenges injustice, creates opportunity, and strengthens our communities. We're looking for the Kindness Warriors whose commitment to others is creating lasting change across Silicon Valley.
+
+2026 Award Categories
+
+Business Award – Honoring companies that strengthen communities through partnership and opportunity.
+
+Education Award – Recognizing organizations that expand access to education and opportunity.
+
+Philanthropy Award – Honoring foundations and individuals whose generosity expands opportunity, strengthens dignity, and drives lasting change through trust, partnership, and sustained investment in community.
+
+Volunteer Award – Recognizing individuals whose service strengthens families and communities.
+
+Civic Award – Celebrating public leaders advancing innovative solutions and economic opportunity.
+
+Lifetime Achievement Award – Honoring extraordinary leadership and a lifetime of community impact.
+
+Do you know someone who embodies extraordinary compassion, leadership, and service? Nominate them today and help us celebrate the people building stronger, healthier, and more connected communities.
+
+Awards Celebration: September 18, 2026
+Adobe World Headquarters, San Jose
+
+🔗 Submit your nomination today: >>Check Link in Bio<<
+
+Nominations close August 1, 2026.
+
+Please help us spread the word by sharing this post with your friends, colleagues, and community networks.
+
+Because extraordinary people build extraordinary communities.",1944,0,0,image_or_unknown,1,0,,,1,0.15,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sunnyvale_cs,Sunnyvale Community Services,south_bay_local,instagram,@sunnyvalecommunityservices,https://www.instagram.com/sunnyvalecommunityservices/,2026-07-14T23:49:12-07:00,1314,"1,314 followers",https://www.instagram.com/sunnyvalecommunityservices/p/DWztSQJFFE6/,DWztSQJFFE6,p,2026-04-06T23:02:22.000Z,14w,2026-07-15T00:20:56-07:00,"Happy 4th of July from Sunnyvale Community Services! ❤️
+
+True freedom and independence begin with having a safe place to sleep and food on the table. Every day, we strive to embody this service by standing alongside our most vulnerable neighbors and ensuring that no one goes hungry or without a home.
+
+Wishing our wonderful community a warm, safe, and happy holiday! ✨
+
+#4thofJuly #Sunnyvalecommunityservices #equity #CommunityStrong #CommunitySupport",452,5,0,image_or_unknown,14,1,,,15,1.14,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sunnyvale_cs,Sunnyvale Community Services,south_bay_local,instagram,@sunnyvalecommunityservices,https://www.instagram.com/sunnyvalecommunityservices/,2026-07-14T23:49:12-07:00,1314,"1,314 followers",https://www.instagram.com/sunnyvalecommunityservices/p/DXziuDdjMoJ/,DXziuDdjMoJ,p,2026-05-01T18:01:26.000Z,10w,2026-07-15T00:19:49-07:00,"Happy 4th of July from Sunnyvale Community Services! ❤️
+
+True freedom and independence begin with having a safe place to sleep and food on the table. Every day, we strive to embody this service by standing alongside our most vulnerable neighbors and ensuring that no one goes hungry or without a home.
+
+Wishing our wonderful community a warm, safe, and happy holiday! ✨
+
+#4thofJuly #Sunnyvalecommunityservices #equity #CommunityStrong #CommunitySupport",452,5,0,image_or_unknown,0,0,,,0,0,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,sunnyvale_cs,Sunnyvale Community Services,south_bay_local,instagram,@sunnyvalecommunityservices,https://www.instagram.com/sunnyvalecommunityservices/,2026-07-14T23:49:12-07:00,1314,"1,314 followers",https://www.instagram.com/sunnyvalecommunityservices/p/DZxmrN3iaDz/,DZxmrN3iaDz,p,2026-06-19T17:00:19.000Z,3w,2026-07-15T00:16:20-07:00,"Happy 4th of July from Sunnyvale Community Services! ❤️
+
+True freedom and independence begin with having a safe place to sleep and food on the table. Every day, we strive to embody this service by standing alongside our most vulnerable neighbors and ensuring that no one goes hungry or without a home.
+
+Wishing our wonderful community a warm, safe, and happy holiday! ✨
+
+#4thofJuly #Sunnyvalecommunityservices #equity #CommunityStrong #CommunitySupport",452,5,0,image_or_unknown,5,0,,,5,0.38,,true,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,west_valley_cs,West Valley Community Services,south_bay_local,instagram,@wvcommunityservices,https://www.instagram.com/wvcommunityservices/,2026-07-14T23:49:41-07:00,1291,"1,291 followers",https://www.instagram.com/wvcommunityservices/p/DQcHnzcE1EE/,DQcHnzcE1EE,p,2025-10-30T16:02:31.000Z,36w,2026-07-15T00:28:25-07:00,"Join West Valley Community Services in spreading the word about why Measure A matters for our neighbors’ health, housing, and stability! 🏡💙
+
+We’ll be out in Cupertino TOMORROW to talk with community members about how this small local measure protects hospital access, supports essential health services, and strengthens care for everyone — whether you have Medi-Cal or private insurance. 
+
+Voting ends in 6 days! Let’s make sure our community stays informed, supported, and healthy — together. 💪 YES ON A!
+
+#MeasureA #WVCS #CommunityHealth #Cupertino #GetInvolved #WestValleyCommunityServices",595,6,0,image_or_unknown,17,0,,,17,1.32,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,west_valley_cs,West Valley Community Services,south_bay_local,instagram,@wvcommunityservices,https://www.instagram.com/wvcommunityservices/,2026-07-14T23:49:41-07:00,1291,"1,291 followers",https://www.instagram.com/wvcommunityservices/p/DY7hfLJmgwK/,DY7hfLJmgwK,p,2026-05-29T16:56:09.000Z,6w,2026-07-15T00:32:24-07:00,"Join West Valley Community Services in spreading the word about why Measure A matters for our neighbors’ health, housing, and stability! 🏡💙
+
+We’ll be out in Cupertino TOMORROW to talk with community members about how this small local measure protects hospital access, supports essential health services, and strengthens care for everyone — whether you have Medi-Cal or private insurance. 
+
+Voting ends in 6 days! Let’s make sure our community stays informed, supported, and healthy — together. 💪 YES ON A!
+
+#MeasureA #WVCS #CommunityHealth #Cupertino #GetInvolved #WestValleyCommunityServices",595,6,0,image_or_unknown,6,0,,,6,0.46,,false,,,,,,,,,,,unchecked,complete,,
+2026-07-15T00-03-14_PT_instagram,west_valley_cs,West Valley Community Services,south_bay_local,instagram,@wvcommunityservices,https://www.instagram.com/wvcommunityservices/,2026-07-14T23:49:41-07:00,1291,"1,291 followers",https://www.instagram.com/wvcommunityservices/p/DZiQzSLGn1k/,DZiQzSLGn1k,p,2026-06-13T18:00:55.000Z,4w,2026-07-15T00:31:50-07:00,"Join West Valley Community Services in spreading the word about why Measure A matters for our neighbors’ health, housing, and stability! 🏡💙
+
+We’ll be out in Cupertino TOMORROW to talk with community members about how this small local measure protects hospital access, supports essential health services, and strengthens care for everyone — whether you have Medi-Cal or private insurance. 
+
+Voting ends in 6 days! Let’s make sure our community stays informed, supported, and healthy — together. 💪 YES ON A!
+
+#MeasureA #WVCS #CommunityHealth #Cupertino #GetInvolved #WestValleyCommunityServices",595,6,0,carousel,3,0,,,3,0.23,,true,,,,,,,,,,,unchecked,complete,,

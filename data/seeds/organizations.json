@@ -1,0 +1,127 @@
+{
+  "$comment": "Mirror of organizations.csv (the CSV is the source of truth for collectors). Peer universe from 'Peer Nonprofit Identification and Verification' (2026-07-15): 8-org core shortlist active on Instagram+Facebook, 12 reserve/stretch orgs inactive. Facebook/LinkedIn/ROLF URLs verified from each org's official website footer on 2026-07-14 (Catholic Charities SCC Facebook via search — recheck). IG follower counts are the doc's 2026-07-15 public-snippet proxies — re-record all followers on one single collection day via run-account-snapshots and lock that denominator. LinkedIn: manual collection chosen 2026-07-14 (rows inactive; verified URLs kept for hand entry into data/normalized/manual_posts.csv).",
+  "focal": {
+    "organization_id": "rolf",
+    "organization_name": "River of Life Foundation",
+    "tier": "focal_org",
+    "website": "https://rolfusa.org/",
+    "accounts": {
+      "instagram": "https://www.instagram.com/rolforg/",
+      "facebook": "https://www.facebook.com/ROLFUSA/",
+      "linkedin": "https://www.linkedin.com/company/river-of-life-foundation/"
+    },
+    "$note": "Instagram handle is @rolforg (verified from rolfusa.org) — NOT @riveroflifefoundation as the plan doc's example implied."
+  },
+  "core_shortlist": [
+    {
+      "organization_id": "marthas_kitchen",
+      "organization_name": "Martha's Kitchen",
+      "tier": "south_bay_local",
+      "city": "San Jose",
+      "accounts": {
+        "instagram": "https://www.instagram.com/marthaskitchensj/",
+        "facebook": "https://www.facebook.com/marthaskitchensj/",
+        "linkedin": "https://www.linkedin.com/company/marthaskitchensj/"
+      },
+      "ig_followers_proxy_2026_07_15": "2.1K+"
+    },
+    {
+      "organization_id": "sunnyvale_cs",
+      "organization_name": "Sunnyvale Community Services",
+      "tier": "south_bay_local",
+      "city": "Sunnyvale",
+      "accounts": {
+        "instagram": "https://www.instagram.com/sunnyvalecommunityservices/",
+        "facebook": "https://www.facebook.com/sunnyvalecommunityservices/",
+        "linkedin": "https://www.linkedin.com/company/sunnyvale-community-services/"
+      },
+      "ig_followers_proxy_2026_07_15": "1.3K+"
+    },
+    {
+      "organization_id": "sacred_heart_cs",
+      "organization_name": "Sacred Heart Community Service",
+      "tier": "south_bay_local",
+      "city": "San Jose",
+      "accounts": {
+        "instagram": "https://www.instagram.com/sacredheartcs/",
+        "facebook": "https://www.facebook.com/sacredheartcs/",
+        "linkedin": "https://www.linkedin.com/company/sacred-heart-community-service/"
+      },
+      "ig_followers_proxy_2026_07_15": "4K+"
+    },
+    {
+      "organization_id": "west_valley_cs",
+      "organization_name": "West Valley Community Services",
+      "tier": "south_bay_local",
+      "city": "Cupertino",
+      "accounts": {
+        "instagram": "https://www.instagram.com/wvcommunityservices/",
+        "facebook": "https://www.facebook.com/wvcommunityservices/",
+        "linkedin": "https://www.linkedin.com/company/west-valley-community-services/"
+      },
+      "ig_followers_proxy_2026_07_15": "1.3K+"
+    },
+    {
+      "organization_id": "loaves_fishes_sj",
+      "organization_name": "Loaves & Fishes Family Kitchen",
+      "tier": "south_bay_local",
+      "city": "San Jose",
+      "accounts": {
+        "instagram": "https://www.instagram.com/loavesfishessj/",
+        "facebook": "https://www.facebook.com/loavesfishessj/",
+        "linkedin": "https://www.linkedin.com/company/loaves-&-fishes-family-kitchen/"
+      },
+      "ig_followers_proxy_2026_07_15": "923"
+    },
+    {
+      "organization_id": "catholic_charities_scc",
+      "organization_name": "Catholic Charities of Santa Clara County",
+      "tier": "south_bay_local",
+      "city": "San Jose",
+      "accounts": {
+        "instagram": "https://www.instagram.com/catholiccharitiesscc/",
+        "facebook": "https://www.facebook.com/WorkingToEndPoverty/",
+        "linkedin": "https://www.linkedin.com/company/catholic-charities-of-santa-clara-county/"
+      },
+      "ig_followers_proxy_2026_07_15": "1.7K+"
+    },
+    {
+      "organization_id": "cityteam",
+      "organization_name": "CityTeam",
+      "tier": "south_bay_local",
+      "city": "San Jose",
+      "accounts": {
+        "instagram": "https://www.instagram.com/cityteam/",
+        "facebook": "https://www.facebook.com/cityteam/",
+        "linkedin": "https://www.linkedin.com/company/cityteam/"
+      },
+      "ig_followers_proxy_2026_07_15": "5.2K+"
+    },
+    {
+      "organization_id": "sunday_friends",
+      "organization_name": "Sunday Friends",
+      "tier": "south_bay_local",
+      "city": "San Jose",
+      "accounts": {
+        "instagram": "https://www.instagram.com/sundayfriends/",
+        "facebook": "https://www.facebook.com/sundayfriends/",
+        "linkedin": "https://www.linkedin.com/company/sundayfriends/"
+      },
+      "ig_followers_proxy_2026_07_15": "675"
+    }
+  ],
+  "reserve_and_stretch": [
+    { "organization_id": "homefirst", "organization_name": "HomeFirst", "tier": "south_bay_local", "city": "Milpitas", "instagram": "https://www.instagram.com/homefirstservicesscc/", "linkedin": "https://www.linkedin.com/company/homefirstscc/", "ig_followers_proxy_2026_07_15": "62", "status": "reserve" },
+    { "organization_id": "second_harvest_sv", "organization_name": "Second Harvest of Silicon Valley", "tier": "south_bay_local", "city": "San Jose", "instagram": "https://www.instagram.com/2ndharvest/", "linkedin": "https://www.linkedin.com/company/second-harvest-food-bank/", "ig_followers_proxy_2026_07_15": "9K+", "status": "reserve/stretch" },
+    { "organization_id": "lifemoves", "organization_name": "LifeMoves", "tier": "south_bay_local", "city": "Santa Clara", "instagram": "https://www.instagram.com/lifemoves_org/", "ig_followers_proxy_2026_07_15": "2.8K+", "status": "reserve" },
+    { "organization_id": "alameda_county_cfb", "organization_name": "Alameda County Community Food Bank", "tier": "ca_regional", "city": "Oakland", "instagram": "https://www.instagram.com/accfb/", "ig_followers_proxy_2026_07_15": "6.3K+", "status": "reserve/stretch" },
+    { "organization_id": "sf_marin_food_bank", "organization_name": "SF-Marin Food Bank", "tier": "ca_regional", "city": "San Francisco", "instagram": "https://www.instagram.com/sfmfoodbank/", "linkedin": "https://www.linkedin.com/company/sfmfoodbank/", "ig_followers_proxy_2026_07_15": "7.7K+", "status": "stretch" },
+    { "organization_id": "second_harvest_santa_cruz", "organization_name": "Second Harvest Food Bank Santa Cruz County", "tier": "ca_regional", "city": "Watsonville", "instagram": "https://www.instagram.com/secondharvestsantacruz/", "ig_followers_proxy_2026_07_15": "4,182", "status": "stretch" },
+    { "organization_id": "catholic_charities_east_bay", "organization_name": "Catholic Charities East Bay", "tier": "ca_regional", "city": "Oakland", "instagram": "https://www.instagram.com/catholiccharitieseastbay/", "ig_followers_proxy_2026_07_15": "1,909", "status": "reserve" },
+    { "organization_id": "food_bank_ccs", "organization_name": "Food Bank of Contra Costa and Solano", "tier": "ca_regional", "city": "Concord", "instagram": "https://www.instagram.com/foodbankccs/", "ig_followers_proxy_2026_07_15": "3,964", "status": "stretch" },
+    { "organization_id": "feeding_san_diego", "organization_name": "Feeding San Diego", "tier": "ca_regional", "city": "San Diego", "instagram": "https://www.instagram.com/feedingsandiego/", "ig_followers_proxy_2026_07_15": "20.6K+", "status": "stretch" },
+    { "organization_id": "la_regional_food_bank", "organization_name": "Los Angeles Regional Food Bank", "tier": "ca_regional", "city": "Los Angeles", "instagram": "https://www.instagram.com/lafoodbank/", "ig_followers_proxy_2026_07_15": "31.6K+", "status": "reserve/stretch" },
+    { "organization_id": "oc_rescue_mission", "organization_name": "Orange County Rescue Mission", "tier": "national_faith_adjacent", "city": "Tustin", "instagram": "https://www.instagram.com/ocrescuemission/", "ig_followers_proxy_2026_07_15": "5,780", "status": "faith-adjacent stretch" },
+    { "organization_id": "union_rescue_mission", "organization_name": "Union Rescue Mission", "tier": "national_faith_adjacent", "city": "Los Angeles", "instagram": "https://www.instagram.com/unionrescuemission/", "ig_followers_proxy_2026_07_15": "13.5K+", "status": "faith-adjacent stretch" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "rolf-social-audit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "River of Life Foundation social media growth audit — low-volume, auditable collection pipeline",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "login:instagram": "tsx src/auth/login.instagram.ts",
+    "login:facebook": "tsx src/auth/login.facebook.ts",
+    "login:linkedin": "tsx src/auth/login.linkedin.ts",
+    "snapshots": "tsx scripts/run-account-snapshots.ts",
+    "enumerate": "tsx scripts/run-post-enumeration.ts",
+    "metrics": "tsx scripts/run-post-metrics.ts",
+    "validate": "tsx scripts/run-validation.ts",
+    "coding-sheet": "tsx scripts/prepare-coding-sheet.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
